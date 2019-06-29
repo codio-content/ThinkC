@@ -1,0 +1,6 @@
+[submodule "codio-student-unit-exclude/ThinkC"]
+	path = codio-student-unit-exclude/ThinkC
+	url = git@github.com:tscheffl/ThinkC.git
+[submodule "codio-student-unit-exclude/book-converter"]
+	path = codio-student-unit-exclude/book-converter
+	url = git@github.com:codio/book-converter.git
