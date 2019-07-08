@@ -1,0 +1,756 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "id": "the-way-of-the-program-what-is-a-programming-language-",
+     "pageId": "the-way-of-the-program-what-is-a-programming-language-",
+     "title": "What is a programming language?",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-what-is-a-program-",
+     "pageId": "the-way-of-the-program-what-is-a-program-",
+     "title": "What is a program?",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-what-is-debugging-",
+     "pageId": "the-way-of-the-program-what-is-debugging-",
+     "title": "What is debugging?",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-formal-and-natural-languages",
+     "pageId": "the-way-of-the-program-formal-and-natural-languages",
+     "title": "Formal and natural languages",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-the-first-program",
+     "pageId": "the-way-of-the-program-the-first-program",
+     "title": "The first program",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-glossary",
+     "pageId": "the-way-of-the-program-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "the-way-of-the-program-exercises",
+     "pageId": "the-way-of-the-program-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "the-way-of-the-program",
+   "pageId": "the-way-of-the-program",
+   "title": "The way of the program",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "variables-and-types-more-output",
+     "pageId": "variables-and-types-more-output",
+     "title": "More output",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-values",
+     "pageId": "variables-and-types-values",
+     "title": "Values",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-variables",
+     "pageId": "variables-and-types-variables",
+     "title": "Variables",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-assignment",
+     "pageId": "variables-and-types-assignment",
+     "title": "Assignment",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-outputting-variables",
+     "pageId": "variables-and-types-outputting-variables",
+     "title": "Outputting variables",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-keywords",
+     "pageId": "variables-and-types-keywords",
+     "title": "Keywords",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-operators",
+     "pageId": "variables-and-types-operators",
+     "title": "Operators",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-order-of-operations",
+     "pageId": "variables-and-types-order-of-operations",
+     "title": "Order of operations",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-operators-for-characters",
+     "pageId": "variables-and-types-operators-for-characters",
+     "title": "Operators for characters",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-composition",
+     "pageId": "variables-and-types-composition",
+     "title": "Composition",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-glossary",
+     "pageId": "variables-and-types-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "variables-and-types-exercises",
+     "pageId": "variables-and-types-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "variables-and-types",
+   "title": "Variables and types",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "function-floating-point",
+     "pageId": "function-floating-point",
+     "title": "Floating-point",
+     "type": "page"
+    },
+    {
+     "id": "function-constants",
+     "pageId": "function-constants",
+     "title": "Constants",
+     "type": "page"
+    },
+    {
+     "id": "function-converting-from-double-to-int",
+     "pageId": "function-converting-from-double-to-int",
+     "title": "Converting from double to int",
+     "type": "page"
+    },
+    {
+     "id": "function-math-functions",
+     "pageId": "function-math-functions",
+     "title": "Math functions",
+     "type": "page"
+    },
+    {
+     "id": "function-composition",
+     "pageId": "function-composition",
+     "title": "Composition",
+     "type": "page"
+    },
+    {
+     "id": "function-adding-new-functions",
+     "pageId": "function-adding-new-functions",
+     "title": "Adding new functions",
+     "type": "page"
+    },
+    {
+     "id": "function-definitions-and-uses",
+     "pageId": "function-definitions-and-uses",
+     "title": "Definitions and uses",
+     "type": "page"
+    },
+    {
+     "id": "function-programs-with-multiple-functions",
+     "pageId": "function-programs-with-multiple-functions",
+     "title": "Programs with multiple functions",
+     "type": "page"
+    },
+    {
+     "id": "function-parameters-and-arguments",
+     "pageId": "function-parameters-and-arguments",
+     "title": "Parameters and arguments",
+     "type": "page"
+    },
+    {
+     "id": "function-parameters-and-variables-are-local",
+     "pageId": "function-parameters-and-variables-are-local",
+     "title": "Parameters and variables are local",
+     "type": "page"
+    },
+    {
+     "id": "function-functions-with-multiple-parameters",
+     "pageId": "function-functions-with-multiple-parameters",
+     "title": "Functions with multiple parameters",
+     "type": "page"
+    },
+    {
+     "id": "function-functions-with-results",
+     "pageId": "function-functions-with-results",
+     "title": "Functions with results",
+     "type": "page"
+    },
+    {
+     "id": "function-glossary",
+     "pageId": "function-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "function-exercises",
+     "pageId": "function-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "function",
+   "title": "Function",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "conditionals-and-recursion-conditional-execution",
+     "pageId": "conditionals-and-recursion-conditional-execution",
+     "title": "Conditional execution",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-the-modulus-operator",
+     "pageId": "conditionals-and-recursion-the-modulus-operator",
+     "title": "The modulus operator",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-alternative-execution",
+     "pageId": "conditionals-and-recursion-alternative-execution",
+     "title": "Alternative execution",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-chained-conditionals",
+     "pageId": "conditionals-and-recursion-chained-conditionals",
+     "title": "Chained conditionals",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-nested-conditionals",
+     "pageId": "conditionals-and-recursion-nested-conditionals",
+     "title": "Nested conditionals",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-the-return-statement",
+     "pageId": "conditionals-and-recursion-the-return-statement",
+     "title": "The return statement",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-recursion",
+     "pageId": "conditionals-and-recursion-recursion",
+     "title": "Recursion",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-infinite-recursion",
+     "pageId": "conditionals-and-recursion-infinite-recursion",
+     "title": "Infinite recursion",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-stack-diagrams-for-recursive-functions",
+     "pageId": "conditionals-and-recursion-stack-diagrams-for-recursive-functions",
+     "title": "Stack diagrams for recursive functions",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-glossary",
+     "pageId": "conditionals-and-recursion-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "conditionals-and-recursion-exercises",
+     "pageId": "conditionals-and-recursion-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "conditionals-and-recursion",
+   "title": "Conditionals and recursion",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "fruitful-functions-return-values",
+     "pageId": "fruitful-functions-return-values",
+     "title": "Return values",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-program-development",
+     "pageId": "fruitful-functions-program-development",
+     "title": "Program development",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-composition",
+     "pageId": "fruitful-functions-composition",
+     "title": "Composition",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-boolean-values",
+     "pageId": "fruitful-functions-boolean-values",
+     "title": "Boolean values",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-boolean-variables",
+     "pageId": "fruitful-functions-boolean-variables",
+     "title": "Boolean variables",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-logical-operators",
+     "pageId": "fruitful-functions-logical-operators",
+     "title": "Logical operators",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-bool-functions",
+     "pageId": "fruitful-functions-bool-functions",
+     "title": "Bool functions",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-returning-from-main-",
+     "pageId": "fruitful-functions-returning-from-main-",
+     "title": "Returning from main()",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-glossary",
+     "pageId": "fruitful-functions-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "fruitful-functions-exercises",
+     "pageId": "fruitful-functions-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "fruitful-functions",
+   "title": "Fruitful functions",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "iteration-multiple-assignment",
+     "pageId": "iteration-multiple-assignment",
+     "title": "Multiple assignment",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration",
+     "pageId": "iteration-iteration",
+     "title": "Iteration",
+     "type": "page"
+    },
+    {
+     "id": "iteration-the-while-statement",
+     "pageId": "iteration-the-while-statement",
+     "title": "The while statement",
+     "type": "page"
+    },
+    {
+     "id": "iteration-tables",
+     "pageId": "iteration-tables",
+     "title": "Tables",
+     "type": "page"
+    },
+    {
+     "id": "iteration-two-dimensional-tables",
+     "pageId": "iteration-two-dimensional-tables",
+     "title": "Two-dimensional tables",
+     "type": "page"
+    },
+    {
+     "id": "iteration-encapsulation-and-generalization",
+     "pageId": "iteration-encapsulation-and-generalization",
+     "title": "Encapsulation and generalization",
+     "type": "page"
+    },
+    {
+     "id": "iteration-functions",
+     "pageId": "iteration-functions",
+     "title": "Functions",
+     "type": "page"
+    },
+    {
+     "id": "iteration-more-encapsulation",
+     "pageId": "iteration-more-encapsulation",
+     "title": "More encapsulation",
+     "type": "page"
+    },
+    {
+     "id": "iteration-local-variables",
+     "pageId": "iteration-local-variables",
+     "title": "Local variables",
+     "type": "page"
+    },
+    {
+     "id": "iteration-more-generalization",
+     "pageId": "iteration-more-generalization",
+     "title": "More generalization",
+     "type": "page"
+    },
+    {
+     "id": "iteration-glossary",
+     "pageId": "iteration-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "iteration-exercises",
+     "pageId": "iteration-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "iteration",
+   "title": "Iteration",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "arrays-increment-and-decrement-operators",
+     "pageId": "arrays-increment-and-decrement-operators",
+     "title": "Increment and decrement operators",
+     "type": "page"
+    },
+    {
+     "id": "arrays-accessing-elements",
+     "pageId": "arrays-accessing-elements",
+     "title": "Accessing elements",
+     "type": "page"
+    },
+    {
+     "id": "arrays-copying-arrays",
+     "pageId": "arrays-copying-arrays",
+     "title": "Copying arrays",
+     "type": "page"
+    },
+    {
+     "id": "arrays-for-loops",
+     "pageId": "arrays-for-loops",
+     "title": "for loops",
+     "type": "page"
+    },
+    {
+     "id": "arrays-array-length",
+     "pageId": "arrays-array-length",
+     "title": "Array length",
+     "type": "page"
+    },
+    {
+     "id": "arrays-random-numbers",
+     "pageId": "arrays-random-numbers",
+     "title": "Random numbers",
+     "type": "page"
+    },
+    {
+     "id": "arrays-statistics",
+     "pageId": "arrays-statistics",
+     "title": "Statistics",
+     "type": "page"
+    },
+    {
+     "id": "arrays-array-of-random-numbers",
+     "pageId": "arrays-array-of-random-numbers",
+     "title": "Array of random numbers",
+     "type": "page"
+    },
+    {
+     "id": "arrays-passing-an-array-to-a-function",
+     "pageId": "arrays-passing-an-array-to-a-function",
+     "title": "Passing an array to a function",
+     "type": "page"
+    },
+    {
+     "id": "arrays-counting",
+     "pageId": "arrays-counting",
+     "title": "Counting",
+     "type": "page"
+    },
+    {
+     "id": "arrays-checking-the-other-values",
+     "pageId": "arrays-checking-the-other-values",
+     "title": "Checking the other values",
+     "type": "page"
+    },
+    {
+     "id": "arrays-a-histogram",
+     "pageId": "arrays-a-histogram",
+     "title": "A histogram",
+     "type": "page"
+    },
+    {
+     "id": "arrays-a-single-pass-solution",
+     "pageId": "arrays-a-single-pass-solution",
+     "title": "A single-pass solution",
+     "type": "page"
+    },
+    {
+     "id": "arrays-random-seeds",
+     "pageId": "arrays-random-seeds",
+     "title": "Random seeds",
+     "type": "page"
+    },
+    {
+     "id": "arrays-glossary",
+     "pageId": "arrays-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "arrays-exercises",
+     "pageId": "arrays-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "arrays",
+   "pageId": "arrays",
+   "title": "Arrays",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "strings-and-things-containers-for-strings",
+     "pageId": "strings-and-things-containers-for-strings",
+     "title": "Containers for strings",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-string-variables",
+     "pageId": "strings-and-things-string-variables",
+     "title": "String variables",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-extracting-characters-from-a-string",
+     "pageId": "strings-and-things-extracting-characters-from-a-string",
+     "title": "Extracting characters from a string",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-length",
+     "pageId": "strings-and-things-length",
+     "title": "Length",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-traversal",
+     "pageId": "strings-and-things-traversal",
+     "title": "Traversal",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-finding-a-character-in-a-string",
+     "pageId": "strings-and-things-finding-a-character-in-a-string",
+     "title": "Finding a  character in a string",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-pointers-and-addresses",
+     "pageId": "strings-and-things-pointers-and-addresses",
+     "title": "Pointers and Addresses",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-string-concatenation",
+     "pageId": "strings-and-things-string-concatenation",
+     "title": "String concatenation",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-assigning-new-values-to-string-variables",
+     "pageId": "strings-and-things-assigning-new-values-to-string-variables",
+     "title": "Assigning new values to string variables",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-strings-are-not-comparable",
+     "pageId": "strings-and-things-strings-are-not-comparable",
+     "title": "strings are not comparable",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-character-classification",
+     "pageId": "strings-and-things-character-classification",
+     "title": "Character classification",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-getting-user-input",
+     "pageId": "strings-and-things-getting-user-input",
+     "title": "Getting user input",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-glossary",
+     "pageId": "strings-and-things-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "strings-and-things-exercises",
+     "pageId": "strings-and-things-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "strings-and-things",
+   "title": "Strings and things",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "structures-compound-values",
+     "pageId": "structures-compound-values",
+     "title": "Compound values",
+     "type": "page"
+    },
+    {
+     "id": "structures-point-objects",
+     "pageId": "structures-point-objects",
+     "title": "Point objects",
+     "type": "page"
+    },
+    {
+     "id": "structures-accessing-member-variables",
+     "pageId": "structures-accessing-member-variables",
+     "title": "Accessing member variables",
+     "type": "page"
+    },
+    {
+     "id": "structures-operations-on-structures",
+     "pageId": "structures-operations-on-structures",
+     "title": "Operations on structures",
+     "type": "page"
+    },
+    {
+     "id": "structures-structures-as-parameters",
+     "pageId": "structures-structures-as-parameters",
+     "title": "Structures as parameters",
+     "type": "page"
+    },
+    {
+     "id": "structures-call-by-value",
+     "pageId": "structures-call-by-value",
+     "title": "Call by value",
+     "type": "page"
+    },
+    {
+     "id": "structures-call-by-reference",
+     "pageId": "structures-call-by-reference",
+     "title": "Call by reference",
+     "type": "page"
+    },
+    {
+     "id": "structures-rectangles",
+     "pageId": "structures-rectangles",
+     "title": "Rectangles",
+     "type": "page"
+    },
+    {
+     "id": "structures-structures-as-return-types",
+     "pageId": "structures-structures-as-return-types",
+     "title": "Structures as return types",
+     "type": "page"
+    },
+    {
+     "id": "structures-passing-other-types-by-reference",
+     "pageId": "structures-passing-other-types-by-reference",
+     "title": "Passing other types by reference",
+     "type": "page"
+    },
+    {
+     "id": "structures-glossary",
+     "pageId": "structures-glossary",
+     "title": "Glossary",
+     "type": "page"
+    },
+    {
+     "id": "structures-exercises",
+     "pageId": "structures-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "structures",
+   "title": "Structures",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "coding-style-a-short-guide-on-style",
+     "pageId": "coding-style-a-short-guide-on-style",
+     "title": "A short guide on style",
+     "type": "page"
+    },
+    {
+     "id": "coding-style-naming-conventions-and-capitalization-rules",
+     "pageId": "coding-style-naming-conventions-and-capitalization-rules",
+     "title": "Naming conventions and capitalization rules",
+     "type": "page"
+    },
+    {
+     "id": "coding-style-bracing-style",
+     "pageId": "coding-style-bracing-style",
+     "title": "Bracing style",
+     "type": "page"
+    },
+    {
+     "id": "coding-style-layout",
+     "pageId": "coding-style-layout",
+     "title": "Layout",
+     "type": "page"
+    }
+   ],
+   "id": "coding-style",
+   "title": "Coding Style",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "ascii-table",
+   "pageId": "ascii-table",
+   "title": "ASCII-Table",
+   "type": "chapter"
+  }
+ ],
+ "name": "How to Think Like a Computer Scientist: C version"
+}

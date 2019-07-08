@@ -1,0 +1,11 @@
+In the last few sections, I used the phrase “by convention” several times to indicate design decisions that are arbitrary in the sense that there are no significant reasons to do things one way or another, but dictated by convention.
+
+In these cases, it is to your advantage to be familiar with convention and use it, since it will make your programs easier for others to understand.  At the same time, it is important to distinguish between (at least) three kinds of rules:
+
+* **Divine law:**  This is my phrase to indicate a rule that is true because of some underlying principle of logic or mathematics, and that is true in any programming language (or other formal system).  For example, there is no way to specify the location and size of a bounding box using fewer than four pieces of information.  Another example is that adding integers is commutative.  That's part of the definition of addition and has nothing to do with C.
+* **Rules of C:**  These are the syntactic and semantic rules of C that you cannot violate, because the resulting program will not compile or run.  Some are arbitrary; for example, the fact that the `=` symbol represents assignment and *not* equality.  Others reflect underlying limitations of the compilation or execution process. For example, you have to specify the types of parameters, but not arguments.
+* **Style and convention:**  There are a lot of rules that are not enforced by the compiler, but that are essential for writing programs that are correct, that you can debug and modify, and that others can read.  Examples include indentation and the placement of squiggly braces, as well as conventions for naming variables, functions and types. 
+
+In this section I will briefly summarize the coding style used within this book. It follows loosely the "Nasa C Style Guide"  \footnote{www.scribd.com/doc/6878959/NASA-C-programming-guide} and its main intent is on readability rather than saving space or typing effort.
+
+Since C has such a long history of usage, many  different coding styles have been developed and used. It is important that you can read them and follow one particular scheme in all your code. This makes it much more accessible should you find yourself in a position where you have to share your work with other  people or have to access code written by your younger self - many years ago...

@@ -1,0 +1,300 @@
+workspace:
+  directory: /home/codio/workspace/codio-student-unit-exclude/ThinkC
+  tex: Main.tex
+assets:
+  - figs
+sections:
+  - name: "The way of the program"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "What is a programming language?"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "What is a program?"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "What is debugging?"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Formal and natural languages"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "The first program"
+    type: section
+    transformations:
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/hello.c -o code/hello ./code/hello)
+ 
+          position: 488
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/hello.c"
+          panel: 0
+          action: open
+  - name: "Glossary"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercises"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Variables and types"
+    type: chapter
+  - name: "More output"
+    type: section
+  - name: "Values"
+    type: section
+  - name: "Variables"
+    type: section
+  - name: "Assignment"
+    type: section
+  - name: "Outputting variables"
+    type: section
+  - name: "Keywords"
+    type: section
+  - name: "Operators"
+    type: section
+  - name: "Order of operations"
+    type: section
+  - name: "Operators for characters"
+    type: section
+  - name: "Composition"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Function"
+    type: chapter
+  - name: "Floating-point"
+    type: section
+  - name: "Constants"
+    type: section
+  - name: "Converting from double to int"
+    type: section
+  - name: "Math functions"
+    type: section
+  - name: "Composition"
+    type: section
+  - name: "Adding new functions"
+    type: section
+  - name: "Definitions and uses"
+    type: section
+  - name: "Programs with multiple functions"
+    type: section
+  - name: "Parameters and arguments"
+    type: section
+  - name: "Parameters and variables are local"
+    type: section
+  - name: "Functions with multiple parameters"
+    type: section
+  - name: "Functions with results"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Conditionals and recursion"
+    type: chapter
+  - name: "Conditional execution"
+    type: section
+  - name: "The modulus operator"
+    type: section
+  - name: "Alternative execution"
+    type: section
+  - name: "Chained conditionals"
+    type: section
+  - name: "Nested conditionals"
+    type: section
+  - name: "The return statement"
+    type: section
+  - name: "Recursion"
+    type: section
+  - name: "Infinite recursion"
+    type: section
+  - name: "Stack diagrams for recursive functions"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Fruitful functions"
+    type: chapter
+  - name: "Return values"
+    type: section
+  - name: "Program development"
+    type: section
+  - name: "Composition"
+    type: section
+  - name: "Boolean values"
+    type: section
+  - name: "Boolean variables"
+    type: section
+  - name: "Logical operators"
+    type: section
+  - name: "Bool functions"
+    type: section
+  - name: "Returning from main()"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Iteration"
+    type: chapter
+  - name: "Multiple assignment"
+    type: section
+  - name: "Iteration"
+    type: section
+  - name: "The while statement"
+    type: section
+  - name: "Tables"
+    type: section
+  - name: "Two-dimensional tables"
+    type: section
+  - name: "Encapsulation and generalization"
+    type: section
+  - name: "Functions"
+    type: section
+  - name: "More encapsulation"
+    type: section
+  - name: "Local variables"
+    type: section
+  - name: "More generalization"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Arrays"
+    type: chapter
+  - name: "Increment and decrement operators"
+    type: section
+  - name: "Accessing elements"
+    type: section
+  - name: "Copying arrays"
+    type: section
+  - name: "for loops"
+    type: section
+  - name: "Array length"
+    type: section
+  - name: "Random numbers"
+    type: section
+  - name: "Statistics"
+    type: section
+  - name: "Array of random numbers"
+    type: section
+  - name: "Passing an array to a function"
+    type: section
+  - name: "Counting"
+    type: section
+  - name: "Checking the other values"
+    type: section
+  - name: "A histogram"
+    type: section
+  - name: "A single-pass solution"
+    type: section
+  - name: "Random seeds"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Strings and things"
+    type: chapter
+  - name: "Containers for strings"
+    type: section
+  - name: "String variables"
+    type: section
+  - name: "Extracting characters from a string"
+    type: section
+  - name: "Length"
+    type: section
+  - name: "Traversal"
+    type: section
+  - name: "Finding a  character in a string"
+    type: section
+  - name: "Pointers and Addresses"
+    type: section
+  - name: "String concatenation"
+    type: section
+  - name: "Assigning new values to string variables"
+    type: section
+  - name: "strings are not comparable"
+    type: section
+  - name: "Character classification"
+    type: section
+  - name: "Getting user input"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Structures"
+    type: chapter
+  - name: "Compound values"
+    type: section
+  - name: "Point objects"
+    type: section
+  - name: "Accessing member variables"
+    type: section
+  - name: "Operations on structures"
+    type: section
+  - name: "Structures as parameters"
+    type: section
+  - name: "Call by value"
+    type: section
+  - name: "Call by reference"
+    type: section
+  - name: "Rectangles"
+    type: section
+  - name: "Structures as return types"
+    type: section
+  - name: "Passing other types by reference"
+    type: section
+  - name: "Glossary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Coding Style"
+    type: chapter
+  - name: "A short guide on style"
+    type: section
+  - name: "Naming conventions and capitalization rules"
+    type: section
+  - name: "Bracing style"
+    type: section
+  - name: "Layout"
+    type: section
+  - name: "ASCII-Table"
+    type: chapter
