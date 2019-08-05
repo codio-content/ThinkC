@@ -133,7 +133,13 @@
     {
      "id": "variables-and-types-exercises",
      "pageId": "variables-and-types-exercises",
-     "title": "Exercises",
+     "title": "Exercise 2.1",
+     "type": "page"
+    },
+    {
+     "id": "15d13970-c06c-8ad2-5332-c3610c089394",
+     "title": "Exercise 2.2",
+     "pageId": "8ab44cea-a8dd-98f4-8bea-742aec291fc4",
      "type": "page"
     }
    ],

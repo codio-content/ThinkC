@@ -1,23 +1,8 @@
 You can output the value of a variable using the same commands we used to output simple values.
 
-```code
-
-    int hour, minute;
-    char colon;
-
-    hour = 11;
-    minute = 59;
-    colon = ':';
-
-    printf ("The current time is ");
-    printf ("%i", hour);
-    printf ("%c", colon);
-    printf ("%i", minute);
-    printf ("\n"); 
-  
-```
 {Run!}(sh .guides/bg.sh gcc code/output.c -o code/output ./code/output)
- This program creates two integer variables named `hour` and `minute`, and a character variable named `colon`.  It assigns appropriate values to each of the variables and then uses a series of output statements to generate the following:
+
+This program [creates two integer variables named `hour` and `minute`](open_file code/output.c panel=0 ref="hour" count=1), and [a character variable named `colon`](open_file code/output.c panel=0 ref="char" count=1).  It [assigns appropriate values to each of the variables](open_file code/output.c panel=0 ref="hour " count=3) and then uses a [series of output statements](open_file code/output.c panel=0 ref="printf" count=5) to generate the following:
 
 ```code
     The current time is 11:59

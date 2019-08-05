@@ -8,7 +8,7 @@ int main (void)
   
   hour = 11;
   minute = 59;
-  colon = ’:’;
+  colon = ':';
   
   printf ("The current time is ");
   printf ("%i", hour);

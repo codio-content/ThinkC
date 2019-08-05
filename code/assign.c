@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 char first_letter;
-char last_letter;
 int hour, minute;
 
 int main (void)

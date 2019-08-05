@@ -257,12 +257,12 @@
      "action": "close"
     },
     {
-     "path": "code/hello.c",
+     "path": "code/assign.c",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#tutor: code/hello.c",
+     "path": "#tutor: code/assign.c",
      "panel": 1,
      "action": "open"
     }
@@ -391,17 +391,45 @@
   },
   {
    "id": "variables-and-types-exercises",
-   "title": "Exercises",
+   "title": "Exercise 2.1",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/MyDate.c",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/variables-and-types-exercises.md",
+   "content-file": ".guides/content/Exercise-2-1-vari.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8ab44cea-a8dd-98f4-8bea-742aec291fc4",
+   "title": "Exercise 2.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/MyTime.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-2-8ab4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -410,7 +438,13 @@
   {
    "id": "function-floating-point",
    "title": "Floating-point",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-floating-point.md",

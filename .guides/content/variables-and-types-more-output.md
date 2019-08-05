@@ -1,26 +1,8 @@
-As I mentioned in the last chapter, you can put as many statements as you want in `main()`.  For example, to output more than one line:
+As I mentioned in the last chapter, you can put as many statements as you want in `main()`.  For example, the code to the left outputs more than one line,
 
-```code
-
-  #include <stdio.h>
-  #include <stdlib.h>
-
-  /* main: generate some simple output */
-
-  int main (void)
-  {
-        printf ("Hello World.\n");		    /* output one line */
-        printf ("How are you?\n");		    /* output another line */       
-        return (EXIT_SUCCESS);
-  }
-
-```
 As you can see, it is legal to put comments at the end of a line, as well as on a line by themselves. {Run!}(sh .guides/bg.sh gcc code/goodbye.c -o code/goodbye ./code/goodbye)
 
-
-
 The phrases that appear in quotation marks are called **strings**, because they are made up of a sequence (string) of letters.  Actually, strings can contain any combination of letters, numbers, punctuation marks, and other special characters.
-
 
 Often it is useful to display the output from multiple output statements all on one line.  You can do this by leaving out the `$\backslash$n` from the first `printf`:
 
