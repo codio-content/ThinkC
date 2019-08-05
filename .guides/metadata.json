@@ -11,9 +11,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/the-way-of-the-program.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -24,8 +29,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-what-is-a-programming-language-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-what-is-a-programming-language-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -36,8 +47,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-what-is-a-program-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-what-is-a-program-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -48,8 +65,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-what-is-debugging-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-what-is-debugging-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -60,8 +83,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-formal-and-natural-languages.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-formal-and-natural-languages",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -72,8 +101,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-the-first-program.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/hello.c"
+        }
+      ],
       "id": "the-way-of-the-program-the-first-program",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -84,8 +124,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-glossary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-glossary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -96,8 +142,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-way-of-the-program-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "the-way-of-the-program-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -108,8 +160,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-more-output.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/goodbye.c"
+        }
+      ],
       "id": "variables-and-types-more-output",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -120,8 +183,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/values.c"
+        }
+      ],
       "id": "variables-and-types-values",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -132,8 +206,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -144,8 +224,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-assignment.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/hello.c"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/hello.c"
+        }
+      ],
       "id": "variables-and-types-assignment",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -156,8 +252,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-outputting-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/output.c"
+        }
+      ],
       "id": "variables-and-types-outputting-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -168,8 +275,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-keywords.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-keywords",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -192,8 +305,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-order-of-operations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-order-of-operations",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -228,8 +347,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-glossary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-glossary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -240,8 +365,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

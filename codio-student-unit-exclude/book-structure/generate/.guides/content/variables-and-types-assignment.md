@@ -5,7 +5,8 @@ Now that we have created some variables, we would like to store values in them. 
     hour = 11;            /* assign the value 11 to hour */
     minute = 59;          /* set minute to 59 */
 ```
-This example shows three assignments, and the comments show three different ways people sometimes talk about assignment statements.  The vocabulary can be confusing here, but the idea is straightforward:
+Check out the variables getting assigned using the code visualizer in the bottom-left panel.
+ This example shows three assignments, and the comments show three different ways people sometimes talk about assignment statements.  The vocabulary can be confusing here, but the idea is straightforward:
 
 
 

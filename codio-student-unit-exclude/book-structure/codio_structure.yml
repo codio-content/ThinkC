@@ -3,6 +3,7 @@ workspace:
   tex: Main.tex
 assets:
   - figs
+  - exercises
 sections:
   - name: "The way of the program"
     type: chapter
@@ -68,34 +69,149 @@ sections:
       files:
           - path: "#tabs"
             action: close
+# chapter 2
   - name: "Variables and types"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "More output"
     type: section
+    transformations:
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/goodbye.c -o code/goodbye ./code/goodbye)
+ 
+          position: 33
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/goodbye.c -o code/goodbye ./code/goodbye 2 )
+ 
+          position: 56
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/goodbye.c -o code/goodbye ./code/goodbye 3 )
+ 
+          position: 75
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/goodbye.c -o code/goodbye ./code/goodbye 4 )
+ 
+          position: 84
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/goodbye.c"
+          panel: 0
+          action: open
   - name: "Values"
     type: section
+    transformations:
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/values.c -o code/values ./code/values)
+ 
+          position: 117
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/values.c -o code/values ./code/values 2 )
+ 
+          position: 135
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/values.c"
+          panel: 0
+          action: open
   - name: "Variables"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Assignment"
     type: section
+    transformations:
+        - add:  |
+                Check out the variables getting assigned using the code visualizer in the bottom-left panel.
+ 
+          position: 222
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/hello.c"
+          panel: 0
+          action: open
+        - path: "#tutor: code/hello.c"
+          panel: 1
+          action: open
   - name: "Outputting variables"
     type: section
+    transformations:
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/output.c -o code/output ./code/output)
+ 
+          position: 309
+        - add:  |
+            {Run!}(sh .guides/bg.sh gcc code/output.c -o code/output ./code/output 2 )
+ 
+          position: 345
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/output.c"
+          panel: 0
+          action: open
   - name: "Keywords"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Operators"
     type: section
+    #todo
   - name: "Order of operations"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Operators for characters"
     type: section
+    #todo
   - name: "Composition"
     type: section
+    #todo
   - name: "Glossary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# chapter 3
   - name: "Function"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Floating-point"
     type: section
   - name: "Constants"
@@ -124,6 +240,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 4
   - name: "Conditionals and recursion"
     type: chapter
   - name: "Conditional execution"
@@ -148,6 +265,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 5
   - name: "Fruitful functions"
     type: chapter
   - name: "Return values"
@@ -170,6 +288,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 6
   - name: "Iteration"
     type: chapter
   - name: "Multiple assignment"
@@ -196,6 +315,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 7
   - name: "Arrays"
     type: chapter
   - name: "Increment and decrement operators"
@@ -230,6 +350,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 8
   - name: "Strings and things"
     type: chapter
   - name: "Containers for strings"
@@ -260,6 +381,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# chapter 9
   - name: "Structures"
     type: chapter
   - name: "Compound values"
@@ -286,6 +408,7 @@ sections:
     type: section
   - name: "Exercises"
     type: section
+# appendix a
   - name: "Coding Style"
     type: chapter
   - name: "A short guide on style"
@@ -296,5 +419,6 @@ sections:
     type: section
   - name: "Layout"
     type: section
+# appendix b
   - name: "ASCII-Table"
     type: chapter

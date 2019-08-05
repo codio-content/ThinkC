@@ -28,7 +28,8 @@ The statement that prints things on the screen is `printf()`, and the characters
 
 There are a few other things you should notice about the syntax of this program.  First, C uses curly-brackets (\{ and \}) to group things together.  In this case, the output statement is enclosed in curly-brackets, indicating that it is *inside* the definition of `main()`.  Also, notice that the statement is indented, which helps to show visually which lines are inside the definition.
 
-At this point it would be a good idea to sit down in front of a computer and compile and run this program.  The details of how to do that depend on your programming environment, this book  assumes that you know how to do it.
+At this point it would be a good idea to sit down in front of a computer and compile and run this program.  The details of how to do that depend on your programming environment, this book  assumes that you know how to do it. {Run!}(sh .guides/bg.sh gcc code/hello.c -o code/hello ./code/hello)
+
 
 As I mentioned, the C compiler is very pedantic with syntax. If you make any errors when you type in the program, chances are that it will not compile successfully.  For example, if you misspell `stdio.h`, you might get an error message like the following:
 
