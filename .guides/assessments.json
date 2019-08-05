@@ -1,0 +1,100 @@
+[
+ {
+  "type": "free-text",
+  "taskId": "free-text-3207557195",
+  "source": {
+   "name": "exercise1.1a",
+   "showName": false,
+   "instructions": "In computer jargon, what's the difference between a statement and a comment?",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2002324673",
+  "source": {
+   "name": "exercise1.1b",
+   "showName": false,
+   "instructions": "What does it mean to say that a program is portable?",
+   "guidance": "It means the program can run on more than one kind of computer (e.g. Linux, Mac and Windows and also iPhone, Android, etc).",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1381628373",
+  "source": {
+   "name": "exercise1.1c",
+   "showName": false,
+   "instructions": "What is an executable? ",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "52b97198-a1fc-f5e2-0926-98e02a7ee232",
+     "correct": true,
+     "answer": "Another name for object code that is ready to be executed."
+    },
+    {
+     "_id": "7c3c289e-bf32-e983-f2e0-32f8b4716e3d",
+     "correct": true,
+     "answer": "The output of the compiler, after translating the program."
+    },
+    {
+     "_id": "f084a9eb-5a57-3681-f33a-b3fbfdd88cfe",
+     "correct": false,
+     "answer": "A program in a high-level language, before being compiled."
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

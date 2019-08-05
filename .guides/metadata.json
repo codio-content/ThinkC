@@ -133,7 +133,7 @@
   },
   {
    "id": "the-way-of-the-program-exercises",
-   "title": "Exercises",
+   "title": "Exercise 1.1",
    "files": [
     {
      "path": "#tabs",
@@ -143,7 +143,42 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/the-way-of-the-program-exercises.md",
+   "content-file": ".guides/content/Exercise-1-1-the-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6d965cbe-5c59-e691-f888-558ce6297701",
+   "title": "Exercise 1.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/hello-copy.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-2-6d96.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a6a1cea3-159d-8b4e-ae12-2753e63ed059",
+   "title": "Exercise 1.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-3-a6a1.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

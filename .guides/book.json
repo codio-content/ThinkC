@@ -41,7 +41,19 @@
     {
      "id": "the-way-of-the-program-exercises",
      "pageId": "the-way-of-the-program-exercises",
-     "title": "Exercises",
+     "title": "Exercise 1.1",
+     "type": "page"
+    },
+    {
+     "id": "40237bb3-3045-0dd0-f42a-dbdb42634432",
+     "title": "Exercise 1.2",
+     "pageId": "6d965cbe-5c59-e691-f888-558ce6297701",
+     "type": "page"
+    },
+    {
+     "id": "7beedd9f-f81f-0148-90ab-f04d5f71fb77",
+     "title": "Exercise 1.3",
+     "pageId": "a6a1cea3-159d-8b4e-ae12-2753e63ed059",
      "type": "page"
     }
    ],
