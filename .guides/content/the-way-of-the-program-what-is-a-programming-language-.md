@@ -10,7 +10,7 @@ Due to these advantages, almost all programs are written in high-level languages
 
 There are two ways to translate a program; **interpreting** or **compiling**.  An interpreter is a program that reads a high-level program and does what it says.  In effect, it translates the program line-by-line, alternately reading lines and carrying out commands.
 
-\vskip 0.7em \centerline{\includegraphics[height=3cm]{figs/Interpreter}}
+![figs/Interpreter-page-001](figs/Interpreter-page-001.jpg)
 
 A compiler is a program that reads a high-level program and translates it all at once, before executing any of the commands. Often you compile the program as a separate step, and then execute the compiled code later.  In this case, the high-level program is called the **source code**, and the translated program is called the **object code** or the **executable**.
 
@@ -18,8 +18,7 @@ As an example, suppose you write a program in C.  You might use a text editor to
 
 Then, depending on what your programming environment is like, you might leave the text editor and run the compiler.  The compiler would read your source code, translate it, and create a new file named `program.o` to contain the object code, or `program.exe` to contain the executable. 
 
-\vskip 0.7em \centerline{\includegraphics[height=3cm]{figs/Compiler}}
-
+![figs/Compiler-page-001](figs/Compiler-page-001.jpg)
 
 The next step is to run the program, which requires some kind of executor.  The role of the executor is to load the program (copy it from disk into memory)  and make the computer start executing the program. 
 

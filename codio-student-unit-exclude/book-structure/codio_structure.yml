@@ -2,8 +2,11 @@ workspace:
   directory: /home/codio/workspace/codio-student-unit-exclude/ThinkC
   tex: Main.tex
 assets:
-  - figs
+  - figs: "*.png"
+  - figs: "*.jpg"
   - exercises
+metadata:
+  suppressPageNumbering: true
 sections:
   - name: "The way of the program"
     type: chapter

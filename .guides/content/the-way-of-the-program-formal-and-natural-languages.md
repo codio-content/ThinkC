@@ -4,11 +4,10 @@
 
 
 
-> {\bf Programming languages are formal languages that have been
-> designed to express computations.}
+> **Programming languages are formal languages that have been designed to express computations.**
 
 
-As I mentioned before, formal languages tend to have strict rules about syntax.  For example, $3+3=6$ is a syntactically correct mathematical statement, but $3=+6\$$ is not.  Also, $H_2O$ is a syntactically correct chemical name, but $_2Zz$ is not.
+As I mentioned before, formal languages tend to have strict rules about syntax.  For example, $3+3=6$ is a syntactically correct mathematical statement, but ` 3=+6\$ ` is not.  Also, $H_2O$ is a syntactically correct chemical name, but $_2Zz$ is not.
 
 Syntax rules come in two flavors, pertaining to tokens and structure. Tokens are the basic elements of the language, like words and numbers and chemical elements.  One of the problems with `3=+6\$` is that `\$` is not a legal token in mathematics (at least as far as I know).  Similarly, $_2Zz$ is not legal because there is no element with the abbreviation $Zz$.
 
