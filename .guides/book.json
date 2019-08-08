@@ -230,7 +230,25 @@
     {
      "id": "function-exercises",
      "pageId": "function-exercises",
-     "title": "Exercises",
+     "title": "Exercise 3.1",
+     "type": "page"
+    },
+    {
+     "id": "04552b74-4f74-59d5-4c58-3bd4569f93be",
+     "title": "Exercise 3.2",
+     "pageId": "5e4b0a35-e61d-b04c-49dc-05b6e8002b4e",
+     "type": "page"
+    },
+    {
+     "id": "79506d09-e5bf-6da6-1cdf-6b1bc8d849cb",
+     "title": "Exercise 3.3",
+     "pageId": "f94dea6b-7e97-889b-24ed-0d77bdc9199c",
+     "type": "page"
+    },
+    {
+     "id": "d98f8b35-72ad-0139-77f8-aba0aaa10235",
+     "title": "Exercise 3.4",
+     "pageId": "03ef06a3-35da-a7a6-c28f-d9c46f4b3e1a",
      "type": "page"
     }
    ],

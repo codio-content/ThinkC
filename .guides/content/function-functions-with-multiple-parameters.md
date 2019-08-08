@@ -18,3 +18,5 @@ Another common source of confusion is that you do not have to declare the types 
     PrintTime (int hour, int minute);   /* WRONG! */
 ```
 In this case, the compiler can tell the type of `hour` and `minute` by looking at their declarations.  It is unnecessary and illegal to include the type when you pass them as arguments.  The correct syntax is `PrintTime (hour, minute);`.
+
+{Run!}(sh .guides/bg.sh gcc code/multipleParameters.c -o code/multipleParameters ./code/multipleParameters)

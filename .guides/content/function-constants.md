@@ -17,6 +17,8 @@ C allows you to specify the static nature of storage locations through the use o
     PI = 10.999;  /* wrong, error caught by the compiler  */
 ```
 
+{Run!}(sh .guides/bg.sh gcc code/PI.c -o code/PI ./code/PI)
+
 It is no longer possible to change the value for  `PI` once it has been initialised, but  other than this we can use it just like a variable.
 
 In order to visually separate constants from variables we will use all uppercase letters in their names.

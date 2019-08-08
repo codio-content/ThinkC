@@ -478,7 +478,18 @@
   {
    "id": "function-constants",
    "title": "Constants",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/PI.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-constants.md",
@@ -490,7 +501,13 @@
   {
    "id": "function-converting-from-double-to-int",
    "title": "Converting from double to int",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-converting-from-double-to-int.md",
@@ -526,7 +543,18 @@
   {
    "id": "function-adding-new-functions",
    "title": "Adding new functions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-adding-new-functions.md",
@@ -538,7 +566,13 @@
   {
    "id": "function-definitions-and-uses",
    "title": "Definitions and uses",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-definitions-and-uses.md",
@@ -562,7 +596,18 @@
   {
    "id": "function-parameters-and-arguments",
    "title": "Parameters and arguments",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/parameters.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-parameters-and-arguments.md",
@@ -574,7 +619,23 @@
   {
    "id": "function-parameters-and-variables-are-local",
    "title": "Parameters and variables are local",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/parameters.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/parameters.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-parameters-and-variables-are-local.md",
@@ -586,7 +647,18 @@
   {
    "id": "function-functions-with-multiple-parameters",
    "title": "Functions with multiple parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multipleParameters.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-functions-with-multiple-parameters.md",
@@ -598,7 +670,13 @@
   {
    "id": "function-functions-with-results",
    "title": "Functions with results",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/function-functions-with-results.md",
@@ -621,11 +699,91 @@
   },
   {
    "id": "function-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 3.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex3-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/function-exercises.md",
+   "content-file": ".guides/content/Exercise-3-1-func.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5e4b0a35-e61d-b04c-49dc-05b6e8002b4e",
+   "title": "Exercise 3.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex3-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-2-5e4b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f94dea6b-7e97-889b-24ed-0d77bdc9199c",
+   "title": "Exercise 3.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/MyDate.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-3-f94d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "03ef06a3-35da-a7a6-c28f-d9c46f4b3e1a",
+   "title": "Exercise 3.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Multadd.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-4-03ef.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

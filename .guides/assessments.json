@@ -96,5 +96,82 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-889544214",
+  "source": {
+   "name": "ex3.1a",
+   "showName": false,
+   "instructions": "What is the output of the program to the left?  Be precise about where there are spaces and where there are newlines. \n\nHINT: Start by describing in words what `Ping()` and `Baffle()` do when they are invoked. ",
+   "text": "<<<No, I wug.>>>\n<<<You wugga wug.>>>\n<<<I wug.>>>",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "No, I wug.",
+     "You wugga wug.",
+     "I wug."
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3913256437",
+  "source": {
+   "name": "ex3.1b",
+   "showName": false,
+   "instructions": "Rearrange the blocks to create a stack diagram that shows the state of the program the first time `Ping()` is invoked. ",
+   "initial": "Ping()\nBaffle()\nZoop()\nmain",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex3-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex3-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
