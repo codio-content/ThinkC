@@ -350,7 +350,18 @@
   {
    "id": "variables-and-types-operators-for-characters",
    "title": "Operators for characters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/charMath.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/variables-and-types-operators-for-characters.md",
@@ -362,7 +373,18 @@
   {
    "id": "variables-and-types-composition",
    "title": "Composition",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/composition.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/variables-and-types-composition.md",
