@@ -14,4 +14,7 @@ Sometimes you want to check for a number of related conditions and choose one of
         printf ("x is zero\n");
     }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/chainConditions.c -o code/chainConditions ./code/chainConditions)
+
 These chains can be as long as you want, although they can be difficult to read if they get out of hand.  One way to make them easier to read is to use standard indentation, as demonstrated in these examples.  If you keep all the statements and squiggly-braces lined up, you are less likely to make syntax errors and you can find them more quickly if you do.

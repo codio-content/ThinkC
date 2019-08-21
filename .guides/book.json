@@ -321,7 +321,25 @@
     {
      "id": "conditionals-and-recursion-exercises",
      "pageId": "conditionals-and-recursion-exercises",
-     "title": "Exercises",
+     "title": "Exercise 4.1",
+     "type": "page"
+    },
+    {
+     "id": "a0e88c18-e7bb-e0df-7a24-7bff7b5a813d",
+     "title": "Exercise 4.2",
+     "pageId": "efdefd52-5d0f-e1d4-761f-f114d1f6e1a2",
+     "type": "page"
+    },
+    {
+     "id": "c0bb848e-df66-b993-6e9e-a1b69ac925cf",
+     "title": "Exercise 4.3",
+     "pageId": "71aaba72-3df1-afb7-b1a9-6ca0bcd731b9",
+     "type": "page"
+    },
+    {
+     "id": "867d8669-ed28-5935-3c46-d1f8a908731d",
+     "title": "Exercise 4.4",
+     "pageId": "622f57a6-327a-4795-4fa0-47d62bf07d6a",
      "type": "page"
     }
    ],

@@ -792,7 +792,18 @@
   {
    "id": "conditionals-and-recursion-conditional-execution",
    "title": "Conditional execution",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditional.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-conditional-execution.md",
@@ -804,7 +815,18 @@
   {
    "id": "conditionals-and-recursion-the-modulus-operator",
    "title": "The modulus operator",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/mod.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-the-modulus-operator.md",
@@ -816,7 +838,18 @@
   {
    "id": "conditionals-and-recursion-alternative-execution",
    "title": "Alternative execution",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditional.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-alternative-execution.md",
@@ -828,7 +861,18 @@
   {
    "id": "conditionals-and-recursion-chained-conditionals",
    "title": "Chained conditionals",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/chainConditions.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-chained-conditionals.md",
@@ -852,7 +896,18 @@
   {
    "id": "conditionals-and-recursion-the-return-statement",
    "title": "The return statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/return.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-the-return-statement.md",
@@ -864,7 +919,18 @@
   {
    "id": "conditionals-and-recursion-recursion",
    "title": "Recursion",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/recursion.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-recursion.md",
@@ -876,7 +942,13 @@
   {
    "id": "conditionals-and-recursion-infinite-recursion",
    "title": "Infinite recursion",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-infinite-recursion.md",
@@ -889,6 +961,7 @@
    "id": "conditionals-and-recursion-stack-diagrams-for-recursive-functions",
    "title": "Stack diagrams for recursive functions",
    "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/conditionals-and-recursion-stack-diagrams-for-recursive-functions.md",
@@ -911,11 +984,91 @@
   },
   {
    "id": "conditionals-and-recursion-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 4.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/conditionals-and-recursion-exercises.md",
+   "content-file": ".guides/content/Exercise-4-1-cond.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "efdefd52-5d0f-e1d4-761f-f114d1f6e1a2",
+   "title": "Exercise 4.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-2-efde.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "71aaba72-3df1-afb7-b1a9-6ca0bcd731b9",
+   "title": "Exercise 4.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-3-71aa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "622f57a6-327a-4795-4fa0-47d62bf07d6a",
+   "title": "Exercise 4.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-4-622f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

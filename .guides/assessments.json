@@ -173,5 +173,41 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2267961135",
+  "source": {
+   "name": "exercise4.1",
+   "showName": false,
+   "instructions": "What is the output of this program? \n\nUse the blocks below to construct the correct output.\n\nHint: You will not use all the blocks.",
+   "initial": "rattle 5\n12 zoop\nboo-wa-ha-ha\nrattle 13 #distractor\n-5 zoop #distractor\nrattle 12 #distractor\n13 zoop #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 4,\n  \"can_indent\": false\n}",
+   "grader": "",
+   "guidance": "Click on the following link to use a code visualization tool to help:\n\nhttp://pythontutor.com/c.html#code=%20%20%20%23include%20%3Cstdio.h%3E%0A%20%20%20%23include%20%3Cstdlib.h%3E%0A%0A%20%20%20void%20Zippo%20%28int%20quince,%20int%20flag%29%3B%0A%0A%20%20%20void%20Baffle%20%28int%20output%29%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,output%29%3B%0A%20%20%20%20%20%20%20Zippo%20%2812,%20-5%29%3B%0A%20%20%20%20%20%7D%0A%20%0A%20%20%20%20void%20Zippo%20%28int%20quince,%20int%20flag%29%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20if%20%28flag%20%3C%200%29%0A%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20printf%20%28%22%25i%20zoop%5Cn%22,%20quince%29%3B%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20else%0A%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22rattle%20%22%29%3B%0A%20%20%20%20%20%20%20%20%20%20Baffle%20%28quince%29%3B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22boo-wa-ha-ha%5Cn%22%29%3B%0A%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%7D%0A%20%0A%20%20%20%20%20int%20main%20%28void%29%0A%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20Zippo%20%285,%2013%29%3B%0A%20%20%20%20%20%20%20%20%20return%20EXIT_SUCCESS%3B%0A%20%20%20%20%20%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex4-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex4-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
