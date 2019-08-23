@@ -3,9 +3,8 @@ At this point you should be able to look at complete C functions and tell what t
 
 As an example, imagine you want to find the distance between two points, given by the coordinates $(x_1, y_1)$ and $(x_2, y_2)$.  By the usual definition,
 
-\begin{equation}
-distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
-\end{equation}
+<center> $ distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $ </center>
+
 The first step is to consider what a `Distance` function should look like in C.  In other words, what are the inputs (parameters) and what is the output (return value).
 
 In this case, the two points are the parameters, and it is natural to represent them using four `double`s.  The return value is the distance, which will have type `double`.
@@ -26,6 +25,9 @@ In order to test the new function, we have to call it with sample values.  Somew
   double dist = Distance (1.0, 2.0, 4.0, 6.0);
   printf  ("%f\n" dist);
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/distance.c -o code/distance ./code/distance)
+
 I chose these values so that the horizontal distance is 3 and the vertical distance is 4; that way, the result will be 5 (the hypotenuse of a 3-4-5 triangle). When you are testing a function, it is useful to know the right answer.
 
 Once we have checked the syntax of the function definition, we can start adding lines of code one at a time.  After each incremental change, we recompile and run the program.  That way, at any point we know exactly where the error must be---in the last line we added.
@@ -74,6 +76,8 @@ Finally, we can use the `sqrt()` function to compute and return the result.
   }
 ```
 Then in `main()`, we should output and check the value of the result.
+
+{Run!}(sh .guides/bg.sh gcc code/distance.c -o code/distance ./code/distance 2 )
 
 As you gain more experience programming, you might find yourself writing and debugging more than one line at a time.  Nevertheless, this incremental development process can save you a lot of debugging time.
 

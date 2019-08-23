@@ -209,5 +209,155 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3449308636",
+  "source": {
+   "name": "ex5-2",
+   "showName": false,
+   "instructions": "Construct the output using the following blocks.\n\nHint: You will not need all of them.",
+   "initial": "1\n1\nping!\npong!\n0 #distractor\n0 #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\":\"soartableTrash\",\n  \"max_wrong_lines\": 2,\n  \"can_indent\": false\n}",
+   "grader": "1",
+   "guidance": "Check out the visualizer to see the program's execution:\n\nhttp://pythontutor.com/c.html#code=%23define%20TRUE%201%0A%23define%20FALSE%200%0A%0A%0A%20%20short%20IsHoopy%20%28int%20x%29%0A%20%20%20%7B%0A%20%20%20%20%20%20short%20hoopyFlag%3B%0A%20%20%20%20%20%20if%20%28x%252%20%3D%3D%200%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20hoopyFlag%20%3D%20TRUE%3B%0A%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20hoopyFlag%20%3D%20FALSE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%20hoopyFlag%3B%0A%20%20%7D%0A%0A%20%20short%20IsFrabjuous%20%28int%20x%29%20%0A%20%20%7B%0A%20%20%20%20%20%20short%20frabjuousFlag%3B%0A%20%20%20%20%20%20if%20%28x%20%3E%200%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20frabjuousFlag%20%3D%20TRUE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20frabjuousFlag%20%3D%20FALSE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%20frabjuousFlag%3B%0A%20%20%7D%0A%20%20%0A%20%20int%20main%20%28void%29%20%0A%20%20%7B%0A%20%20%20%20%20%20short%20flag1%20%3D%20IsHoopy%20%28202%29%3B%0A%20%20%20%20%20%20short%20flag2%20%3D%20IsFrabjuous%20%28202%29%3B%0A%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,%20flag1%29%3B%0A%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,%20flag2%29%3B%0A%20%20%20%20%20%20if%20%28flag1%20%26%26%20flag2%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22ping!%5Cn%22%29%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20if%20%28flag1%20%7C%7C%20flag2%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22pong!%5Cn%22%29%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%200%3B%0A%20%20%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex5-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1912254521",
+  "source": {
+   "name": "ex5-3a",
+   "showName": false,
+   "instructions": "What would be an appropriate name for `FunctionOne`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "609a17d3-3b10-5344-708b-fc1b1aa2c639",
+     "correct": false,
+     "answer": "GCD"
+    },
+    {
+     "_id": "591164ca-5573-58b8-1e41-1705c5edca24",
+     "correct": false,
+     "answer": "LCM"
+    },
+    {
+     "_id": "dfefbc51-94e4-ecea-1ba8-a177501e1f95",
+     "correct": true,
+     "answer": "SumRange"
+    },
+    {
+     "_id": "00d01582-7fda-7022-e20d-6ba5b5c248b3",
+     "correct": false,
+     "answer": "RangeProduct"
+    }
+   ],
+   "guidance": "FunctionOne sums numbers in range [m,n]. For example, `FunctionOne(2,8)` returns 35.\n\n2 + 3 + 4 + 5 + 6 + 7 + 8 = 35",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ex5-3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-3.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3896238666",
+  "source": {
+   "name": "ex5-3b",
+   "showName": false,
+   "instructions": "What would be an appropriate name for `FunctionTwo`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "31b7d7c0-c8a1-0a04-d572-bcc106d1b74f",
+     "correct": false,
+     "answer": "GCD"
+    },
+    {
+     "_id": "15050ade-78ac-9abb-2438-2c9fb78b9fd4",
+     "correct": false,
+     "answer": "LCM"
+    },
+    {
+     "_id": "344a1358-71e4-b1f9-7cbd-a153388e58b6",
+     "correct": false,
+     "answer": "SumRange"
+    },
+    {
+     "_id": "f8a68884-c685-ef7a-299a-eba420d4a7b3",
+     "correct": true,
+     "answer": "RangeProduct"
+    }
+   ],
+   "guidance": "FunctionTwo finds the product of numbers in range [m,n]. For example, `FunctionTwo(2,8)` returns 35.\n\n2 * 3 * 4 * 5 * 6 * 7 * 8 = 40320",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ex5-3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-3.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

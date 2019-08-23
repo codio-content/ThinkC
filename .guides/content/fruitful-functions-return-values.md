@@ -22,6 +22,9 @@ In this chapter, we are going to write functions that return things, which I wil
       return area;
   }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/returnVal.c -o code/returnVal ./code/returnVal)
+
 The first thing you should notice is that the beginning of the function definition is different.  Instead of `void`, which indicates a void function, we see `double`, which indicates that the return value from this function will have type `double`.
 
 Also, notice that the last line is an alternate form of the `return` statement that includes a return value.  This statement means, “return immediately from this function and use the following expression as a return value.”  The expression you provide can be arbitrarily complicated, so we could have written this function more concisely:
@@ -50,6 +53,8 @@ Sometimes it is useful to have multiple return statements, one in each branch of
       }
   }
 ```
+{Run!}(sh .guides/bg.sh gcc code/returnVal.c -o code/returnVal ./code/returnVal 2 )
+
 Since these returns statements are in an alternative conditional, only one will be executed.  Although it is legal to have more than one `return` statement in a function, you should keep in mind that as soon as one is executed, the function terminates without executing any subsequent statements.
 
 Code that appears after a `return` statement, or any place else where it can never be executed, is called **dead code**.  Some compilers warn you if part of your code is dead.

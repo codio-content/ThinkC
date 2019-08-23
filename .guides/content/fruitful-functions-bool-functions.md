@@ -15,6 +15,8 @@ It is sometimes appropriate for functions to return `boolean` values just  like 
 ```
 The name of this function is `IsSingleDigit()`.  It is common to give such test functions names that sound like yes/no questions. The return type is `int`, which means that again we need to follow the agreement that  0 represents `false` and 1  represents `true`. Every return statement has to follow this convention, again, we are using preprocessor definitions.
 
+{Run!}(sh .guides/bg.sh gcc code/boolFun.c -o code/boolFun ./code/boolFun)
+
 The code itself is straightforward, although it is a bit longer than it needs to be.  Remember that the expression `x >= 0 \&\& x < 10` is evaluated to a `boolean` value, so there is nothing wrong with returning it directly, and avoiding the `if` statement altogether:
 
 ```code
@@ -29,6 +31,8 @@ In `main()` you can call this function in the usual ways:
     printf("%i\n", IsSingleDigit (2));
     short bigFlag = !IsSingleDigit (17);
 ```
+{Run!}(sh .guides/bg.sh gcc code/boolFun.c -o code/boolFun ./code/boolFun 2 )
+
 The first line outputs the value `true` because 2 is a single-digit number.  Unfortunately, when C outputs `boolean` values, it does not display the words `TRUE` and `FALSE`, but rather the integers `1` and `0`.
 
 The second line assigns the value `true` to `bigFlag` only if 17 is *not* a positive single-digit number.

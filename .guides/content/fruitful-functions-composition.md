@@ -22,6 +22,7 @@ Wrapping that all up in a function, we get:
   } 
 ```
 
+{Run!}(sh .guides/bg.sh gcc code/distance.c -o code/distance ./code/distance 3 )
 
 The temporary variables `radius` and `area` are useful for development and debugging, but once the program is working we can make it more concise by composing the function calls:
 

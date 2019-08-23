@@ -406,7 +406,43 @@
     {
      "id": "fruitful-functions-exercises",
      "pageId": "fruitful-functions-exercises",
-     "title": "Exercises",
+     "title": "Exercise 5.1",
+     "type": "page"
+    },
+    {
+     "id": "fbc618ac-7137-42aa-6b17-e17d406017d6",
+     "title": "Exercise 5.2",
+     "pageId": "50675a87-84e5-398b-232c-c46cf1ae47e5",
+     "type": "page"
+    },
+    {
+     "id": "6a19d26d-3f98-a962-8014-657e9e273ef8",
+     "title": "Exercise 5.3",
+     "pageId": "19b5a46c-5e3c-e6f2-519a-5709603a36ac",
+     "type": "page"
+    },
+    {
+     "id": "4a36f64f-6c2c-09aa-ae0e-846c9f347033",
+     "title": "Exercise 5.4",
+     "pageId": "ad78b00d-c5b5-5993-99b0-5be469fd350c",
+     "type": "page"
+    },
+    {
+     "id": "ba3e4e45-36fb-2b8b-f41f-d5c49e02c133",
+     "title": "Exercise 5.5",
+     "pageId": "ed348c72-d67f-f408-040b-5187c683c153",
+     "type": "page"
+    },
+    {
+     "id": "d72d2c5b-3de2-8f06-23eb-ee0b004df14b",
+     "title": "Exercise 5.6",
+     "pageId": "f135e533-e4f9-eb10-5851-669c78ee0423",
+     "type": "page"
+    },
+    {
+     "id": "3d609b83-0883-d1a9-21fe-f83664461b28",
+     "title": "Exercise 5.7",
+     "pageId": "301c6789-3dfa-288c-5ff3-b1d2dd247d54",
      "type": "page"
     }
    ],

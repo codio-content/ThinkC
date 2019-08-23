@@ -1077,7 +1077,18 @@
   {
    "id": "fruitful-functions-return-values",
    "title": "Return values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/returnVal.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-return-values.md",
@@ -1089,7 +1100,18 @@
   {
    "id": "fruitful-functions-program-development",
    "title": "Program development",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/distance.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-program-development.md",
@@ -1113,7 +1135,13 @@
   {
    "id": "fruitful-functions-boolean-values",
    "title": "Boolean values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-boolean-values.md",
@@ -1125,7 +1153,18 @@
   {
    "id": "fruitful-functions-boolean-variables",
    "title": "Boolean variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/bool.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-boolean-variables.md",
@@ -1137,7 +1176,18 @@
   {
    "id": "fruitful-functions-logical-operators",
    "title": "Logical operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/logicOps.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-logical-operators.md",
@@ -1149,7 +1199,18 @@
   {
    "id": "fruitful-functions-bool-functions",
    "title": "Bool functions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/boolFun.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-bool-functions.md",
@@ -1161,7 +1222,13 @@
   {
    "id": "fruitful-functions-returning-from-main-",
    "title": "Returning from main()",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-returning-from-main-.md",
@@ -1173,7 +1240,13 @@
   {
    "id": "fruitful-functions-glossary",
    "title": "Glossary",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/fruitful-functions-glossary.md",
@@ -1184,11 +1257,160 @@
   },
   {
    "id": "fruitful-functions-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 5.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/fruitful-functions-exercises.md",
+   "content-file": ".guides/content/Exercise-5-1-frui.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "50675a87-84e5-398b-232c-c46cf1ae47e5",
+   "title": "Exercise 5.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-2-5067.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "19b5a46c-5e3c-e6f2-519a-5709603a36ac",
+   "title": "Exercise 5.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-3-19b5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ad78b00d-c5b5-5993-99b0-5be469fd350c",
+   "title": "Exercise 5.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-4-ad78.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ed348c72-d67f-f408-040b-5187c683c153",
+   "title": "Exercise 5.5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-5.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-5-ed34.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f135e533-e4f9-eb10-5851-669c78ee0423",
+   "title": "Exercise 5.6",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-6.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-6-f135.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "301c6789-3dfa-288c-5ff3-b1d2dd247d54",
+   "title": "Exercise 5.7",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Multadd.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-7-301c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

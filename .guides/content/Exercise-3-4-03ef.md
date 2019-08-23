@@ -1,10 +1,9 @@
-Many computations can be expressed concisely using the “multadd”
-operation, which takes three operands and computes `a*b + c`.  Some
-processors even provide a hardware implementation of this operation for
-floating-point numbers.
+Many computations can be expressed concisely using the “multadd” operation, which takes three operands and computes `a*b + c`.  Some processors even provide a hardware implementation of this operation for floating-point numbers.
 
 1.  Write a function called `Multadd()` that takes three `doubles` as parameters and that prints their multadditionization.
+
 1.  Write a `main()` function that tests `Multadd()` by invoking it with a few simple parameters, like `1.0, 2.0, 3.0`, and then prints the result, which should be `5.0`.
+
 1.  Also in `main()`, use `Multadd()` to compute the following value: 
 
     $$ \sin \frac{\pi}{4} + \frac{\cos \frac{\pi}{4}}{2} $$
