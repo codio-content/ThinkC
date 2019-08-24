@@ -1419,7 +1419,23 @@
   {
    "id": "iteration-multiple-assignment",
    "title": "Multiple assignment",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/assign2.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/assign2.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-multiple-assignment.md",
@@ -1431,7 +1447,13 @@
   {
    "id": "iteration-iteration",
    "title": "Iteration",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-iteration.md",
@@ -1443,7 +1465,23 @@
   {
    "id": "iteration-the-while-statement",
    "title": "The while statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/while.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/while.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-the-while-statement.md",
@@ -1455,7 +1493,18 @@
   {
    "id": "iteration-tables",
    "title": "Tables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/logs.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-tables.md",
@@ -1467,7 +1516,18 @@
   {
    "id": "iteration-two-dimensional-tables",
    "title": "Two-dimensional tables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-two-dimensional-tables.md",
@@ -1479,7 +1539,18 @@
   {
    "id": "iteration-encapsulation-and-generalization",
    "title": "Encapsulation and generalization",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-encapsulation-and-generalization.md",
@@ -1491,7 +1562,13 @@
   {
    "id": "iteration-functions",
    "title": "Functions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-functions.md",
@@ -1503,7 +1580,18 @@
   {
    "id": "iteration-more-encapsulation",
    "title": "More encapsulation",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-more-encapsulation.md",
@@ -1515,7 +1603,18 @@
   {
    "id": "iteration-local-variables",
    "title": "Local variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-local-variables.md",
@@ -1527,7 +1626,18 @@
   {
    "id": "iteration-more-generalization",
    "title": "More generalization",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-more-generalization.md",
@@ -1539,7 +1649,13 @@
   {
    "id": "iteration-glossary",
    "title": "Glossary",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/iteration-glossary.md",
@@ -1550,11 +1666,91 @@
   },
   {
    "id": "iteration-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 6.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/iteration-exercises.md",
+   "content-file": ".guides/content/Exercise-6-1-iter.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "95ffba02-2677-27e7-b9d0-b77551e1994b",
+   "title": "Exercise 6.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-2-95ff.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "343610be-bbdc-0a51-0a2c-3a3758066e0a",
+   "title": "Exercise 6.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-3-3436.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e0d93b64-a707-7b78-f695-ba6de91edeeb",
+   "title": "Exercise 6.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-4-e0d9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

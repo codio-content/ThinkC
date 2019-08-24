@@ -359,5 +359,83 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1706994656",
+  "source": {
+   "name": "ex6-1a",
+   "showName": false,
+   "instructions": "Construct a table that shows the value of the variables `i` and `n` during the execution of the program. The table contains one column for each variable and one line for each iteration.",
+   "initial": "n=10 .   i=10\nn=10 .   i=5\nn=10 .   i=6\nn=10 .   i=3\nn=10 .   i=4\nn=10 .   i=2\nn=10 .   i=1",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"can_indent\": false\n}",
+   "grader": "",
+   "guidance": "Watch the program flow here:\n\nhttp://pythontutor.com/c.html#code=void%20Loop%28int%20n%29%20%0A%7B%0A%20%20%20%20int%20i%20%3D%20n%3B%0A%20%20%20%20while%20%28i%20%3E%201%29%20%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,i%29%3B%0A%20%20%20%20%20%20%20%20if%20%28i%252%20%3D%3D%200%29%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20i%20%3D%20i/2%3B%0A%20%20%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20i%20%3D%20i%2B1%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D%0A%0Aint%20main%20%28void%29%20%0A%7B%0A%20%20%20%20Loop%2810%29%3B%0A%20%20%20%20return%200%3B%0A%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-227285315",
+  "source": {
+   "name": "ex6-1b",
+   "showName": false,
+   "instructions": "What is the output of this program?",
+   "text": "<<<10>>>\n<<<5>>>\n<<<6>>>\n<<<3>>>\n<<<4>>>\n<<<2>>>",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "10",
+     "5",
+     "6",
+     "3",
+     "4",
+     "2"
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
  }
 ]

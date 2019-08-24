@@ -8,9 +8,14 @@ I haven't said much about it, but it is legal in C to make more than one assignm
 ```
 The output of this program is `57`, because the first time we print `fred` his value is 5, and the second time his value is 7.
 
+{Run!}(sh .guides/bg.sh gcc code/assign2.c -o code/assign2 ./code/assign2 )
+
+Watch the program re-assignment in the bottom left panel.
+
 This kind of **multiple assignment** is the reason I described variables as a *container* for values.  When you assign a value to a variable, you change the contents of the container, as shown in the figure:
 
-\centerline{\includegraphics[height=1.8cm]{figs/assign2.pdf}}
+![](figs/assign2.png)
+
 
 When there are multiple assignments to a variable, it is especially important to distinguish between an assignment statement and a statement of equality.  Because C uses the `=` symbol for assignment, it is tempting to interpret a statement like `a = b` as a statement of equality.  It is not!
 
@@ -24,5 +29,7 @@ Furthermore, in mathematics, a statement of equality is true for all time.  If $
   a = 3;         /* a and b are no longer equal */
 ```
 The third line changes the value of `a` but it does not change the value of `b`, and so they are no longer equal. In many programming languages an alternate symbol is used for assignment, such as `<-` or `:=`, in order to avoid confusion.
+
+{Run!}(sh .guides/bg.sh gcc code/assign2.c -o code/assign2 ./code/assign2 2 )
 
 Although multiple assignment is frequently useful, you should use it with caution.  If the values of variables are changing constantly in different parts of the program, it can make the code difficult to read and debug.

@@ -521,7 +521,25 @@
     {
      "id": "iteration-exercises",
      "pageId": "iteration-exercises",
-     "title": "Exercises",
+     "title": "Exercise 6.1",
+     "type": "page"
+    },
+    {
+     "id": "418d2836-63c7-4408-726a-bd42fa5d0beb",
+     "title": "Exercise 6.2",
+     "pageId": "95ffba02-2677-27e7-b9d0-b77551e1994b",
+     "type": "page"
+    },
+    {
+     "id": "7839bc74-d882-8b40-5271-d561f34a2ca1",
+     "title": "Exercise 6.3",
+     "pageId": "343610be-bbdc-0a51-0a2c-3a3758066e0a",
+     "type": "page"
+    },
+    {
+     "id": "f820947c-9f7b-bd86-cfc5-786baa3f1bcc",
+     "title": "Exercise 6.4",
+     "pageId": "e0d93b64-a707-7b78-f695-ba6de91edeeb",
      "type": "page"
     }
    ],
