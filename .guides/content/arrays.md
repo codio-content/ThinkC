@@ -8,13 +8,9 @@ When you declare an array, you have to determine the number of elements in the a
     double values[10];
 ```
 
+Syntactically, array variables look like other C variables except that they are followed  by `[NUMBER_OF_ELEMENTS]`, the number of elements in the array enclosed in square brackets.  The first line in our example, `int c[4];` is of the type "array of integers" and creates a array of four integers named `c`. The second line, `double values[10];` has the type "array of doubles" and   creates an array of 10 `double`s. 
 
-
-Syntactically, array variables look like other C variables except that they are followed  by `[NUMBER\_OF\_ELEMENTS]`, the number of elements in the array enclosed in square brackets.  The first line in our example, `int c[4];` is of the type "array of integers" and creates a array of four integers named `c`. The second line, `double values[10];` has the type "array of doubles" and   creates an array of 10 `double`s. 
-
-
-
-C allows you to to initialize the element values of an array immediately after you have declared it.  The values  for the individual elements must be  enclosed in curly brakets `\{\`} and separated by comma, as in the following example:
+C allows you to to initialize the element values of an array immediately after you have declared it.  The values  for the individual elements must be  enclosed in curly brakets `{}` and separated by comma, as in the following example:
 
 ```code
     int c[4] = {0, 0, 0, 0};
@@ -24,21 +20,6 @@ This statement creates an array of four elements and initializes all of them to 
 
 The following figure shows how arrays are represented in state diagrams:
 
-
-\unitlength0.1cm
-
-\begin{picture}(40,10)(-30,-5)
-\put(5,1.5){{\Large `c`}}
-\put(10,0){\framebox(7,5){**\textsf{0**}}}
-\put(17,0){\framebox(7,5){**\textsf{0**}}}
-\put(24,0){\framebox(7,5){**\textsf{0**}}}
-\put(31,0){\framebox(7,5){**\textsf{0**}}}
-
-\put(10.5,-4){{\scriptsize `c[0]`}}
-\put(17.5,-4){{\scriptsize `c[1]`}}
-\put(24.5,-4){{\scriptsize `c[2]`}}
-\put(31.5,-4){{\scriptsize `c[3]`}}
-
-\end{picture}
+![](figs/array.png)
 
 The large numbers inside the boxes are the values of the **elements** in the array.  The small numbers outside the boxes are the indices used to identify each box.  When you allocate a new array, without initializing, the arrays elements typically contain arbitrary values and you must initialise them to a meaningful value before using them.

@@ -642,7 +642,19 @@
     {
      "id": "arrays-exercises",
      "pageId": "arrays-exercises",
-     "title": "Exercises",
+     "title": "Exercise 7.1",
+     "type": "page"
+    },
+    {
+     "id": "f96335e6-ad01-35c6-a47f-aed9c3801484",
+     "title": "Exercise 7.2",
+     "pageId": "49aeb3e5-50ed-c87a-e69d-cfc73d94e016",
+     "type": "page"
+    },
+    {
+     "id": "2003e7bf-7dea-fa49-6720-584155e74917",
+     "title": "Exercise 7.3",
+     "pageId": "38636d51-9fbe-4de3-22b6-422139e98802",
      "type": "page"
     }
    ],

@@ -1759,7 +1759,13 @@
   {
    "id": "arrays",
    "title": "Arrays",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays.md",
@@ -1771,7 +1777,18 @@
   {
    "id": "arrays-increment-and-decrement-operators",
    "title": "Increment and decrement operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/increment.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-increment-and-decrement-operators.md",
@@ -1783,7 +1800,18 @@
   {
    "id": "arrays-accessing-elements",
    "title": "Accessing elements",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/accessing.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-accessing-elements.md",
@@ -1795,7 +1823,18 @@
   {
    "id": "arrays-copying-arrays",
    "title": "Copying arrays",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/copyingArrays.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-copying-arrays.md",
@@ -1807,7 +1846,13 @@
   {
    "id": "arrays-for-loops",
    "title": "for loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-for-loops.md",
@@ -1819,7 +1864,18 @@
   {
    "id": "arrays-array-length",
    "title": "Array length",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/length.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-array-length.md",
@@ -1831,7 +1887,18 @@
   {
    "id": "arrays-random-numbers",
    "title": "Random numbers",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/rand.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-random-numbers.md",
@@ -1843,7 +1910,13 @@
   {
    "id": "arrays-statistics",
    "title": "Statistics",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-statistics.md",
@@ -1855,7 +1928,18 @@
   {
    "id": "arrays-array-of-random-numbers",
    "title": "Array of random numbers",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/randArray.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-array-of-random-numbers.md",
@@ -1867,7 +1951,13 @@
   {
    "id": "arrays-passing-an-array-to-a-function",
    "title": "Passing an array to a function",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-passing-an-array-to-a-function.md",
@@ -1891,7 +1981,18 @@
   {
    "id": "arrays-checking-the-other-values",
    "title": "Checking the other values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/randArray2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-checking-the-other-values.md",
@@ -1903,7 +2004,13 @@
   {
    "id": "arrays-a-histogram",
    "title": "A histogram",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-a-histogram.md",
@@ -1915,7 +2022,13 @@
   {
    "id": "arrays-a-single-pass-solution",
    "title": "A single-pass solution",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-a-single-pass-solution.md",
@@ -1927,7 +2040,13 @@
   {
    "id": "arrays-random-seeds",
    "title": "Random seeds",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-random-seeds.md",
@@ -1939,7 +2058,13 @@
   {
    "id": "arrays-glossary",
    "title": "Glossary",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/arrays-glossary.md",
@@ -1950,11 +2075,63 @@
   },
   {
    "id": "arrays-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 7.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/arrays-exercises.md",
+   "content-file": ".guides/content/Exercise-7-1-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "49aeb3e5-50ed-c87a-e69d-cfc73d94e016",
+   "title": "Exercise 7.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex7-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-2-49ae.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "38636d51-9fbe-4de3-22b6-422139e98802",
+   "title": "Exercise 7.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex7-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-3-3863.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

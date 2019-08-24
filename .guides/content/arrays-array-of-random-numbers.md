@@ -40,7 +40,7 @@ On my machine the output is:
 ```code
 3 6 7 5 3 5 6 2 9 1 2 7 0 9 3 6 0 6 2 6 
 ```
-\nopagebreak
+{Run!}(sh .guides/bg.sh gcc code/randArray.c -o code/randArray ./code/randArray )
 
 If these numbers are really random, we expect each digit to appear the same number of times---twice each.  In fact, the number 6 appears five times, and the numbers 4 and 8 never appear at all.
 

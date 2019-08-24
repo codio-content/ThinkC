@@ -31,6 +31,9 @@ value   HowMany
 8       0
 9       2
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/randArray2.c -o code/randArray2 ./code/randArray2 )
+
 Again, it is hard to tell if the digits are really appearing equally often.  If we increase the size of the array to 100,000 we get the following:
 
 ```code

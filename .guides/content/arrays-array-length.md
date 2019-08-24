@@ -17,3 +17,5 @@ It is a good idea to use this value as the upper bound of a loop, rather than a 
     }
 ```
 The last time the body of the loop gets executed, the value of `i` is `length - 1`, which is the index of the last element.  When `i` is equal to `length`, the condition fails and the body is not executed, which is a good thing, since it would access a memory location that is not part of the array.
+
+{Run!}(sh .guides/bg.sh gcc code/length.c -o code/length ./code/length )

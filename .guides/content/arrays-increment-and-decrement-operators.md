@@ -20,6 +20,9 @@ Using the increment operators, we can rewrite the `PrintMultTable()` from Sectio
         } 
     }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/increment.c -o code/increment ./code/increment )
+
 It is a common error to write something like:
 
 ```code

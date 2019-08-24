@@ -437,5 +437,32 @@
     ]
    }
   }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1324978957",
+  "source": {
+   "name": "ex7-1",
+   "showName": false,
+   "instructions": "Is he right?  If not, explain what the program actually does and modify it so that it does the right thing.",
+   "guidance": "Your friend is **not** right.\n\nIt will store the first and last digit correctly but it will sum the two digits instead of concatenate them.\n\nEx. 71 will print out 8 instead of 17",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
