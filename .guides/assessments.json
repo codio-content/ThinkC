@@ -1,0 +1,557 @@
+[
+ {
+  "type": "free-text",
+  "taskId": "free-text-3207557195",
+  "source": {
+   "name": "exercise1.1a",
+   "showName": false,
+   "instructions": "In computer jargon, what's the difference between a statement and a comment?",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2002324673",
+  "source": {
+   "name": "exercise1.1b",
+   "showName": false,
+   "instructions": "What does it mean to say that a program is portable?",
+   "guidance": "It means the program can run on more than one kind of computer (e.g. Linux, Mac and Windows and also iPhone, Android, etc).",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1381628373",
+  "source": {
+   "name": "exercise1.1c",
+   "showName": false,
+   "instructions": "What is an executable? ",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "52b97198-a1fc-f5e2-0926-98e02a7ee232",
+     "correct": true,
+     "answer": "Another name for object code that is ready to be executed."
+    },
+    {
+     "_id": "7c3c289e-bf32-e983-f2e0-32f8b4716e3d",
+     "correct": true,
+     "answer": "The output of the compiler, after translating the program."
+    },
+    {
+     "_id": "f084a9eb-5a57-3681-f33a-b3fbfdd88cfe",
+     "correct": false,
+     "answer": "A program in a high-level language, before being compiled."
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-889544214",
+  "source": {
+   "name": "ex3.1a",
+   "showName": false,
+   "instructions": "What is the output of the program to the left?  Be precise about where there are spaces and where there are newlines. \n\nHINT: Start by describing in words what `Ping()` and `Baffle()` do when they are invoked. ",
+   "text": "<<<No, I wug.>>>\n<<<You wugga wug.>>>\n<<<I wug.>>>",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "No, I wug.",
+     "You wugga wug.",
+     "I wug."
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3913256437",
+  "source": {
+   "name": "ex3.1b",
+   "showName": false,
+   "instructions": "Rearrange the blocks to create a stack diagram that shows the state of the program the first time `Ping()` is invoked. ",
+   "initial": "Ping()\nBaffle()\nZoop()\nmain",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex3-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex3-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2267961135",
+  "source": {
+   "name": "exercise4.1",
+   "showName": false,
+   "instructions": "What is the output of this program? \n\nUse the blocks below to construct the correct output.\n\nHint: You will not use all the blocks.",
+   "initial": "rattle 5\n12 zoop\nboo-wa-ha-ha\nrattle 13 #distractor\n-5 zoop #distractor\nrattle 12 #distractor\n13 zoop #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 4,\n  \"can_indent\": false\n}",
+   "grader": "",
+   "guidance": "Click on the following link to use a code visualization tool to help:\n\nhttp://pythontutor.com/c.html#code=%20%20%20%23include%20%3Cstdio.h%3E%0A%20%20%20%23include%20%3Cstdlib.h%3E%0A%0A%20%20%20void%20Zippo%20%28int%20quince,%20int%20flag%29%3B%0A%0A%20%20%20void%20Baffle%20%28int%20output%29%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,output%29%3B%0A%20%20%20%20%20%20%20Zippo%20%2812,%20-5%29%3B%0A%20%20%20%20%20%7D%0A%20%0A%20%20%20%20void%20Zippo%20%28int%20quince,%20int%20flag%29%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20if%20%28flag%20%3C%200%29%0A%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20printf%20%28%22%25i%20zoop%5Cn%22,%20quince%29%3B%0A%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20else%0A%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22rattle%20%22%29%3B%0A%20%20%20%20%20%20%20%20%20%20Baffle%20%28quince%29%3B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22boo-wa-ha-ha%5Cn%22%29%3B%0A%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%7D%0A%20%0A%20%20%20%20%20int%20main%20%28void%29%0A%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20Zippo%20%285,%2013%29%3B%0A%20%20%20%20%20%20%20%20%20return%20EXIT_SUCCESS%3B%0A%20%20%20%20%20%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex4-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex4-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3449308636",
+  "source": {
+   "name": "ex5-2",
+   "showName": false,
+   "instructions": "Construct the output using the following blocks.\n\nHint: You will not need all of them.",
+   "initial": "1\n1\nping!\npong!\n0 #distractor\n0 #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\":\"soartableTrash\",\n  \"max_wrong_lines\": 2,\n  \"can_indent\": false\n}",
+   "grader": "1",
+   "guidance": "Check out the visualizer to see the program's execution:\n\nhttp://pythontutor.com/c.html#code=%23define%20TRUE%201%0A%23define%20FALSE%200%0A%0A%0A%20%20short%20IsHoopy%20%28int%20x%29%0A%20%20%20%7B%0A%20%20%20%20%20%20short%20hoopyFlag%3B%0A%20%20%20%20%20%20if%20%28x%252%20%3D%3D%200%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20hoopyFlag%20%3D%20TRUE%3B%0A%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20hoopyFlag%20%3D%20FALSE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%20hoopyFlag%3B%0A%20%20%7D%0A%0A%20%20short%20IsFrabjuous%20%28int%20x%29%20%0A%20%20%7B%0A%20%20%20%20%20%20short%20frabjuousFlag%3B%0A%20%20%20%20%20%20if%20%28x%20%3E%200%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20frabjuousFlag%20%3D%20TRUE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20frabjuousFlag%20%3D%20FALSE%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%20frabjuousFlag%3B%0A%20%20%7D%0A%20%20%0A%20%20int%20main%20%28void%29%20%0A%20%20%7B%0A%20%20%20%20%20%20short%20flag1%20%3D%20IsHoopy%20%28202%29%3B%0A%20%20%20%20%20%20short%20flag2%20%3D%20IsFrabjuous%20%28202%29%3B%0A%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,%20flag1%29%3B%0A%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,%20flag2%29%3B%0A%20%20%20%20%20%20if%20%28flag1%20%26%26%20flag2%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22ping!%5Cn%22%29%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20if%20%28flag1%20%7C%7C%20flag2%29%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20printf%20%28%22pong!%5Cn%22%29%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20return%200%3B%0A%20%20%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/ex5-1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-1.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1912254521",
+  "source": {
+   "name": "ex5-3a",
+   "showName": false,
+   "instructions": "What would be an appropriate name for `FunctionOne`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "609a17d3-3b10-5344-708b-fc1b1aa2c639",
+     "correct": false,
+     "answer": "GCD"
+    },
+    {
+     "_id": "591164ca-5573-58b8-1e41-1705c5edca24",
+     "correct": false,
+     "answer": "LCM"
+    },
+    {
+     "_id": "dfefbc51-94e4-ecea-1ba8-a177501e1f95",
+     "correct": true,
+     "answer": "SumRange"
+    },
+    {
+     "_id": "00d01582-7fda-7022-e20d-6ba5b5c248b3",
+     "correct": false,
+     "answer": "RangeProduct"
+    }
+   ],
+   "guidance": "FunctionOne sums numbers in range [m,n]. For example, `FunctionOne(2,8)` returns 35.\n\n2 + 3 + 4 + 5 + 6 + 7 + 8 = 35",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ex5-3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-3.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3896238666",
+  "source": {
+   "name": "ex5-3b",
+   "showName": false,
+   "instructions": "What would be an appropriate name for `FunctionTwo`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "31b7d7c0-c8a1-0a04-d572-bcc106d1b74f",
+     "correct": false,
+     "answer": "GCD"
+    },
+    {
+     "_id": "15050ade-78ac-9abb-2438-2c9fb78b9fd4",
+     "correct": false,
+     "answer": "LCM"
+    },
+    {
+     "_id": "344a1358-71e4-b1f9-7cbd-a153388e58b6",
+     "correct": false,
+     "answer": "SumRange"
+    },
+    {
+     "_id": "f8a68884-c685-ef7a-299a-eba420d4a7b3",
+     "correct": true,
+     "answer": "RangeProduct"
+    }
+   ],
+   "guidance": "FunctionTwo finds the product of numbers in range [m,n]. For example, `FunctionTwo(2,8)` returns 35.\n\n2 * 3 * 4 * 5 * 6 * 7 * 8 = 40320",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/ex5-3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex5-3.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1706994656",
+  "source": {
+   "name": "ex6-1a",
+   "showName": false,
+   "instructions": "Construct a table that shows the value of the variables `i` and `n` during the execution of the program. The table contains one column for each variable and one line for each iteration.",
+   "initial": "n=10 .   i=10\nn=10 .   i=5\nn=10 .   i=6\nn=10 .   i=3\nn=10 .   i=4\nn=10 .   i=2\nn=10 .   i=1",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"can_indent\": false\n}",
+   "grader": "",
+   "guidance": "Watch the program flow here:\n\nhttp://pythontutor.com/c.html#code=void%20Loop%28int%20n%29%20%0A%7B%0A%20%20%20%20int%20i%20%3D%20n%3B%0A%20%20%20%20while%20%28i%20%3E%201%29%20%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20printf%20%28%22%25i%5Cn%22,i%29%3B%0A%20%20%20%20%20%20%20%20if%20%28i%252%20%3D%3D%200%29%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20i%20%3D%20i/2%3B%0A%20%20%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20%20%20else%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20i%20%3D%20i%2B1%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D%0A%0Aint%20main%20%28void%29%20%0A%7B%0A%20%20%20%20Loop%2810%29%3B%0A%20%20%20%20return%200%3B%0A%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-227285315",
+  "source": {
+   "name": "ex6-1b",
+   "showName": false,
+   "instructions": "What is the output of this program?",
+   "text": "<<<10>>>\n<<<5>>>\n<<<6>>>\n<<<3>>>\n<<<4>>>\n<<<2>>>",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "10",
+     "5",
+     "6",
+     "3",
+     "4",
+     "2"
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1324978957",
+  "source": {
+   "name": "ex7-1",
+   "showName": false,
+   "instructions": "Is he right?  If not, explain what the program actually does and modify it so that it does the right thing.",
+   "guidance": "Your friend is **not** right.\n\nIt will store the first and last digit correctly but it will sum the two digits instead of concatenate them.\n\nEx. 71 will print out 8 instead of 17",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2888212934",
+  "source": {
+   "name": "ex8-1",
+   "showName": false,
+   "instructions": "Describe an algorithm for checking whether a given word (String) is abecedarian, assuming that the word contains only lower-case letters.  Your algorithm can be iterative or recursive.",
+   "guidance": "Get the first character of the string.\n\nLoop until end of string\n  if current character is more than next character\n    break - failure\n\n\nsuccess!",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1120774427",
+  "source": {
+   "name": "ex8-6",
+   "showName": false,
+   "instructions": "Think of an algorithm for `TestWord()` that deals with wild cards.  Don't get bogged down in details of implementation like how to represent wild cards.  Just describe the algorithm, using English, pseudocode, or C.",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [
+     "code/ex8-5.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex8-5.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-590448858",
+  "source": {
+   "name": "ex9-1",
+   "showName": false,
+   "instructions": "Change the definition of this function, so that it only passes a reference to the structure to the function for printing *call-by-reference*.",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

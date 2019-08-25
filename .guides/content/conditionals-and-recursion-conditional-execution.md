@@ -8,6 +8,7 @@ In order to write useful programs, we almost always need the ability to check ce
 ```
 The expression in parentheses is called the condition. If it is true, then the statements in brackets get executed. If the condition is not true, nothing happens.
 
+{Run!}(sh .guides/bg.sh gcc code/conditional.c -o code/conditional ./code/conditional)
 
 The condition can contain any of the **comparison operators**:
 

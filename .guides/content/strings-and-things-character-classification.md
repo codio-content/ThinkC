@@ -7,10 +7,11 @@ It is often useful to examine a character and test whether it is upper or lower 
         printf("The character %c is a letter.", letter);
     }
 ```
+{Run!}(sh .guides/bg.sh gcc code/charClass.c -o code/charClass ./code/charClass )
+
 The return value from `isalpha()` is an integer that is 0 if the argument is not a letter, and some non-zero value if it is.
 
 It is legal to use this kind of integer in a conditional, as shown in the example.  The value `0` is treated as `false`, and all non-zero values are treated as `true`.
-
 
 Other character classification functions include `isdigit()`, which identifies the digits 0 through 9, and `isspace()`, which identifies all kinds of “white” space, including spaces, tabs, newlines, and a few others.  There are also `isupper()` and `islower()`, which distinguish upper and lower case letters.
 

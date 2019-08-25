@@ -6,4 +6,4 @@ When we pass an array to a function this behaviour changes to something called *
 
 Call by reference also makes it necessary to supply the length of the array to the called function, since invoking  the `sizeof` operator in the called function would determine the size of the reference and not the original array.
 
-We will further discuss call by reference and call by value in  Section 8.7, Section 9.6 and 9.7.
+We will further discuss call by reference and call by value in Section 8.7, Section 9.6 and 9.7.

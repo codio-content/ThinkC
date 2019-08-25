@@ -160,8 +160,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-more-output.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/goodbye.c"
+        }
+      ],
       "id": "variables-and-types-more-output",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -172,8 +183,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/values.c"
+        }
+      ],
       "id": "variables-and-types-values",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -184,8 +206,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -196,8 +224,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-assignment.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/hello.c"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/hello.c"
+        }
+      ],
       "id": "variables-and-types-assignment",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -208,8 +252,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-outputting-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/output.c"
+        }
+      ],
       "id": "variables-and-types-outputting-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -220,8 +275,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-keywords.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-keywords",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -244,8 +305,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-order-of-operations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-order-of-operations",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -280,8 +347,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-glossary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-glossary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -292,8 +365,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-types-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-types-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -1,1397 +1,2907 @@
 {
-  "allowGuideClose": false,
-  "collapsedOnStart": false,
-  "hideBackToDashboard": false,
-  "hideMenu": false,
-  "hideSectionsToggle": false,
-  "lexikonTopic": "",
-  "protectLayout": false,
-  "scripts": [],
-  "sections": [
-    {
-      "chapter": true,
-      "content-file": ".guides/content/the-way-of-the-program.md",
-      "files": [],
-      "id": "the-way-of-the-program",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The way of the program",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-what-is-a-programming-language-.md",
-      "files": [],
-      "id": "the-way-of-the-program-what-is-a-programming-language-",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is a programming language?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-what-is-a-program-.md",
-      "files": [],
-      "id": "the-way-of-the-program-what-is-a-program-",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is a program?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-what-is-debugging-.md",
-      "files": [],
-      "id": "the-way-of-the-program-what-is-debugging-",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is debugging?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-formal-and-natural-languages.md",
-      "files": [],
-      "id": "the-way-of-the-program-formal-and-natural-languages",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Formal and natural languages",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-the-first-program.md",
-      "files": [],
-      "id": "the-way-of-the-program-the-first-program",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The first program",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-glossary.md",
-      "files": [],
-      "id": "the-way-of-the-program-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/the-way-of-the-program-exercises.md",
-      "files": [],
-      "id": "the-way-of-the-program-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-more-output.md",
-      "files": [],
-      "id": "variables-and-types-more-output",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "More output",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-values.md",
-      "files": [],
-      "id": "variables-and-types-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-variables.md",
-      "files": [],
-      "id": "variables-and-types-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-assignment.md",
-      "files": [],
-      "id": "variables-and-types-assignment",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Assignment",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-outputting-variables.md",
-      "files": [],
-      "id": "variables-and-types-outputting-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Outputting variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-keywords.md",
-      "files": [],
-      "id": "variables-and-types-keywords",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Keywords",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-operators.md",
-      "files": [],
-      "id": "variables-and-types-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-order-of-operations.md",
-      "files": [],
-      "id": "variables-and-types-order-of-operations",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Order of operations",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-operators-for-characters.md",
-      "files": [],
-      "id": "variables-and-types-operators-for-characters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Operators for characters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-composition.md",
-      "files": [],
-      "id": "variables-and-types-composition",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Composition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-glossary.md",
-      "files": [],
-      "id": "variables-and-types-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-types-exercises.md",
-      "files": [],
-      "id": "variables-and-types-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-floating-point.md",
-      "files": [],
-      "id": "function-floating-point",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Floating-point",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-constants.md",
-      "files": [],
-      "id": "function-constants",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Constants",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-converting-from-double-to-int.md",
-      "files": [],
-      "id": "function-converting-from-double-to-int",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Converting from double to int",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-math-functions.md",
-      "files": [],
-      "id": "function-math-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Math functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-composition.md",
-      "files": [],
-      "id": "function-composition",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Composition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-adding-new-functions.md",
-      "files": [],
-      "id": "function-adding-new-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Adding new functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-definitions-and-uses.md",
-      "files": [],
-      "id": "function-definitions-and-uses",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Definitions and uses",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-programs-with-multiple-functions.md",
-      "files": [],
-      "id": "function-programs-with-multiple-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Programs with multiple functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-parameters-and-arguments.md",
-      "files": [],
-      "id": "function-parameters-and-arguments",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Parameters and arguments",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-parameters-and-variables-are-local.md",
-      "files": [],
-      "id": "function-parameters-and-variables-are-local",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Parameters and variables are local",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-functions-with-multiple-parameters.md",
-      "files": [],
-      "id": "function-functions-with-multiple-parameters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Functions with multiple parameters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-functions-with-results.md",
-      "files": [],
-      "id": "function-functions-with-results",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Functions with results",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-glossary.md",
-      "files": [],
-      "id": "function-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/function-exercises.md",
-      "files": [],
-      "id": "function-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-conditional-execution.md",
-      "files": [],
-      "id": "conditionals-and-recursion-conditional-execution",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Conditional execution",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-the-modulus-operator.md",
-      "files": [],
-      "id": "conditionals-and-recursion-the-modulus-operator",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The modulus operator",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-alternative-execution.md",
-      "files": [],
-      "id": "conditionals-and-recursion-alternative-execution",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Alternative execution",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-chained-conditionals.md",
-      "files": [],
-      "id": "conditionals-and-recursion-chained-conditionals",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Chained conditionals",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-nested-conditionals.md",
-      "files": [],
-      "id": "conditionals-and-recursion-nested-conditionals",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Nested conditionals",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-the-return-statement.md",
-      "files": [],
-      "id": "conditionals-and-recursion-the-return-statement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The return statement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-recursion.md",
-      "files": [],
-      "id": "conditionals-and-recursion-recursion",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursion",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-infinite-recursion.md",
-      "files": [],
-      "id": "conditionals-and-recursion-infinite-recursion",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Infinite recursion",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-stack-diagrams-for-recursive-functions.md",
-      "files": [],
-      "id": "conditionals-and-recursion-stack-diagrams-for-recursive-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Stack diagrams for recursive functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-glossary.md",
-      "files": [],
-      "id": "conditionals-and-recursion-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-recursion-exercises.md",
-      "files": [],
-      "id": "conditionals-and-recursion-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-return-values.md",
-      "files": [],
-      "id": "fruitful-functions-return-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Return values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-program-development.md",
-      "files": [],
-      "id": "fruitful-functions-program-development",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Program development",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-composition.md",
-      "files": [],
-      "id": "fruitful-functions-composition",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Composition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-boolean-values.md",
-      "files": [],
-      "id": "fruitful-functions-boolean-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Boolean values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-boolean-variables.md",
-      "files": [],
-      "id": "fruitful-functions-boolean-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Boolean variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-logical-operators.md",
-      "files": [],
-      "id": "fruitful-functions-logical-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Logical operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-bool-functions.md",
-      "files": [],
-      "id": "fruitful-functions-bool-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Bool functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-returning-from-main-.md",
-      "files": [],
-      "id": "fruitful-functions-returning-from-main-",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Returning from main()",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-glossary.md",
-      "files": [],
-      "id": "fruitful-functions-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/fruitful-functions-exercises.md",
-      "files": [],
-      "id": "fruitful-functions-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-multiple-assignment.md",
-      "files": [],
-      "id": "iteration-multiple-assignment",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Multiple assignment",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-iteration.md",
-      "files": [],
-      "id": "iteration-iteration",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Iteration",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-the-while-statement.md",
-      "files": [],
-      "id": "iteration-the-while-statement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The while statement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-tables.md",
-      "files": [],
-      "id": "iteration-tables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-two-dimensional-tables.md",
-      "files": [],
-      "id": "iteration-two-dimensional-tables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Two-dimensional tables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-encapsulation-and-generalization.md",
-      "files": [],
-      "id": "iteration-encapsulation-and-generalization",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Encapsulation and generalization",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-functions.md",
-      "files": [],
-      "id": "iteration-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Functions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-more-encapsulation.md",
-      "files": [],
-      "id": "iteration-more-encapsulation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "More encapsulation",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-local-variables.md",
-      "files": [],
-      "id": "iteration-local-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Local variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-more-generalization.md",
-      "files": [],
-      "id": "iteration-more-generalization",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "More generalization",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-glossary.md",
-      "files": [],
-      "id": "iteration-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/iteration-exercises.md",
-      "files": [],
-      "id": "iteration-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/arrays.md",
-      "files": [],
-      "id": "arrays",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-increment-and-decrement-operators.md",
-      "files": [],
-      "id": "arrays-increment-and-decrement-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Increment and decrement operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-accessing-elements.md",
-      "files": [],
-      "id": "arrays-accessing-elements",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Accessing elements",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-copying-arrays.md",
-      "files": [],
-      "id": "arrays-copying-arrays",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Copying arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-for-loops.md",
-      "files": [],
-      "id": "arrays-for-loops",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "for loops",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-array-length.md",
-      "files": [],
-      "id": "arrays-array-length",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Array length",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-random-numbers.md",
-      "files": [],
-      "id": "arrays-random-numbers",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Random numbers",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-statistics.md",
-      "files": [],
-      "id": "arrays-statistics",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Statistics",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-array-of-random-numbers.md",
-      "files": [],
-      "id": "arrays-array-of-random-numbers",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Array of random numbers",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-passing-an-array-to-a-function.md",
-      "files": [],
-      "id": "arrays-passing-an-array-to-a-function",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Passing an array to a function",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-counting.md",
-      "files": [],
-      "id": "arrays-counting",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Counting",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-checking-the-other-values.md",
-      "files": [],
-      "id": "arrays-checking-the-other-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Checking the other values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-a-histogram.md",
-      "files": [],
-      "id": "arrays-a-histogram",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "A histogram",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-a-single-pass-solution.md",
-      "files": [],
-      "id": "arrays-a-single-pass-solution",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "A single-pass solution",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-random-seeds.md",
-      "files": [],
-      "id": "arrays-random-seeds",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Random seeds",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-glossary.md",
-      "files": [],
-      "id": "arrays-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-exercises.md",
-      "files": [],
-      "id": "arrays-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-containers-for-strings.md",
-      "files": [],
-      "id": "strings-and-things-containers-for-strings",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Containers for strings",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-string-variables.md",
-      "files": [],
-      "id": "strings-and-things-string-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "String variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-extracting-characters-from-a-string.md",
-      "files": [],
-      "id": "strings-and-things-extracting-characters-from-a-string",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Extracting characters from a string",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-length.md",
-      "files": [],
-      "id": "strings-and-things-length",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Length",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-traversal.md",
-      "files": [],
-      "id": "strings-and-things-traversal",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Traversal",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-finding-a-character-in-a-string.md",
-      "files": [],
-      "id": "strings-and-things-finding-a-character-in-a-string",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Finding a  character in a string",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-pointers-and-addresses.md",
-      "files": [],
-      "id": "strings-and-things-pointers-and-addresses",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Pointers and Addresses",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-string-concatenation.md",
-      "files": [],
-      "id": "strings-and-things-string-concatenation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "String concatenation",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-assigning-new-values-to-string-variables.md",
-      "files": [],
-      "id": "strings-and-things-assigning-new-values-to-string-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Assigning new values to string variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-strings-are-not-comparable.md",
-      "files": [],
-      "id": "strings-and-things-strings-are-not-comparable",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "strings are not comparable",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-character-classification.md",
-      "files": [],
-      "id": "strings-and-things-character-classification",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Character classification",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-getting-user-input.md",
-      "files": [],
-      "id": "strings-and-things-getting-user-input",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Getting user input",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-glossary.md",
-      "files": [],
-      "id": "strings-and-things-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/strings-and-things-exercises.md",
-      "files": [],
-      "id": "strings-and-things-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-compound-values.md",
-      "files": [],
-      "id": "structures-compound-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Compound values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-point-objects.md",
-      "files": [],
-      "id": "structures-point-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Point objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-accessing-member-variables.md",
-      "files": [],
-      "id": "structures-accessing-member-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Accessing member variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-operations-on-structures.md",
-      "files": [],
-      "id": "structures-operations-on-structures",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Operations on structures",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-structures-as-parameters.md",
-      "files": [],
-      "id": "structures-structures-as-parameters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Structures as parameters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-call-by-value.md",
-      "files": [],
-      "id": "structures-call-by-value",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Call by value",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-call-by-reference.md",
-      "files": [],
-      "id": "structures-call-by-reference",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Call by reference",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-rectangles.md",
-      "files": [],
-      "id": "structures-rectangles",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Rectangles",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-structures-as-return-types.md",
-      "files": [],
-      "id": "structures-structures-as-return-types",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Structures as return types",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-passing-other-types-by-reference.md",
-      "files": [],
-      "id": "structures-passing-other-types-by-reference",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Passing other types by reference",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-glossary.md",
-      "files": [],
-      "id": "structures-glossary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Glossary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/structures-exercises.md",
-      "files": [],
-      "id": "structures-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/coding-style-a-short-guide-on-style.md",
-      "files": [],
-      "id": "coding-style-a-short-guide-on-style",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "A short guide on style",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/coding-style-naming-conventions-and-capitalization-rules.md",
-      "files": [],
-      "id": "coding-style-naming-conventions-and-capitalization-rules",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Naming conventions and capitalization rules",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/coding-style-bracing-style.md",
-      "files": [],
-      "id": "coding-style-bracing-style",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Bracing style",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/coding-style-layout.md",
-      "files": [],
-      "id": "coding-style-layout",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Layout",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/ascii-table.md",
-      "files": [],
-      "id": "ascii-table",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "ASCII-Table",
-      "type": "markdown"
+ "sections": [
+  {
+   "id": "the-way-of-the-program",
+   "title": "The way of the program",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
     }
-  ],
-  "suppressPageNumbering": false,
-  "theme": "light",
-  "useMarkAsComplete": true,
-  "useSubmitButtons": true
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-what-is-a-programming-language-",
+   "title": "What is a programming language?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-what-is-a-programming-language-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-what-is-a-program-",
+   "title": "What is a program?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-what-is-a-program-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-what-is-debugging-",
+   "title": "What is debugging?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-what-is-debugging-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-formal-and-natural-languages",
+   "title": "Formal and natural languages",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-formal-and-natural-languages.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-the-first-program",
+   "title": "The first program",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/hello.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-the-first-program.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/the-way-of-the-program-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "the-way-of-the-program-exercises",
+   "title": "Exercise 1.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-1-the-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6d965cbe-5c59-e691-f888-558ce6297701",
+   "title": "Exercise 1.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/hello-copy.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-2-6d96.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a6a1cea3-159d-8b4e-ae12-2753e63ed059",
+   "title": "Exercise 1.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-3-a6a1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-more-output",
+   "title": "More output",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/goodbye.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-more-output.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-values",
+   "title": "Values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/values.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-variables",
+   "title": "Variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-assignment",
+   "title": "Assignment",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/assign.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/assign.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-assignment.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-outputting-variables",
+   "title": "Outputting variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/output.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-outputting-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-keywords",
+   "title": "Keywords",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-keywords.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-operators",
+   "title": "Operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-order-of-operations",
+   "title": "Order of operations",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-order-of-operations.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-operators-for-characters",
+   "title": "Operators for characters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/charMath.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-operators-for-characters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-composition",
+   "title": "Composition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/composition.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-composition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-types-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-types-exercises",
+   "title": "Exercise 2.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/MyDate.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-1-vari.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8ab44cea-a8dd-98f4-8bea-742aec291fc4",
+   "title": "Exercise 2.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/MyTime.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-2-8ab4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-floating-point",
+   "title": "Floating-point",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-floating-point.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-constants",
+   "title": "Constants",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/PI.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-constants.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-converting-from-double-to-int",
+   "title": "Converting from double to int",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-converting-from-double-to-int.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-math-functions",
+   "title": "Math functions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-math-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-composition",
+   "title": "Composition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-composition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-adding-new-functions",
+   "title": "Adding new functions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-adding-new-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-definitions-and-uses",
+   "title": "Definitions and uses",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-definitions-and-uses.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-programs-with-multiple-functions",
+   "title": "Programs with multiple functions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-programs-with-multiple-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-parameters-and-arguments",
+   "title": "Parameters and arguments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/parameters.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-parameters-and-arguments.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-parameters-and-variables-are-local",
+   "title": "Parameters and variables are local",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/parameters.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/parameters.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-parameters-and-variables-are-local.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-functions-with-multiple-parameters",
+   "title": "Functions with multiple parameters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multipleParameters.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-functions-with-multiple-parameters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-functions-with-results",
+   "title": "Functions with results",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-functions-with-results.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-glossary",
+   "title": "Glossary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/function-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "function-exercises",
+   "title": "Exercise 3.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex3-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-1-func.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5e4b0a35-e61d-b04c-49dc-05b6e8002b4e",
+   "title": "Exercise 3.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex3-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-2-5e4b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f94dea6b-7e97-889b-24ed-0d77bdc9199c",
+   "title": "Exercise 3.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/MyDate.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-3-f94d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "03ef06a3-35da-a7a6-c28f-d9c46f4b3e1a",
+   "title": "Exercise 3.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Multadd.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-4-03ef.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-conditional-execution",
+   "title": "Conditional execution",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditional.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-conditional-execution.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-the-modulus-operator",
+   "title": "The modulus operator",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/mod.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-the-modulus-operator.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-alternative-execution",
+   "title": "Alternative execution",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditional.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-alternative-execution.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-chained-conditionals",
+   "title": "Chained conditionals",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/chainConditions.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-chained-conditionals.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-nested-conditionals",
+   "title": "Nested conditionals",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-nested-conditionals.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-the-return-statement",
+   "title": "The return statement",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/return.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-the-return-statement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-recursion",
+   "title": "Recursion",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/recursion.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-recursion.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-infinite-recursion",
+   "title": "Infinite recursion",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-infinite-recursion.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-stack-diagrams-for-recursive-functions",
+   "title": "Stack diagrams for recursive functions",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-stack-diagrams-for-recursive-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-glossary",
+   "title": "Glossary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-recursion-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-recursion-exercises",
+   "title": "Exercise 4.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-1-cond.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "efdefd52-5d0f-e1d4-761f-f114d1f6e1a2",
+   "title": "Exercise 4.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-2-efde.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "71aaba72-3df1-afb7-b1a9-6ca0bcd731b9",
+   "title": "Exercise 4.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-3-71aa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "622f57a6-327a-4795-4fa0-47d62bf07d6a",
+   "title": "Exercise 4.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex4-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-4-622f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-return-values",
+   "title": "Return values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/returnVal.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-return-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-program-development",
+   "title": "Program development",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/distance.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-program-development.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-composition",
+   "title": "Composition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-composition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-boolean-values",
+   "title": "Boolean values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-boolean-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-boolean-variables",
+   "title": "Boolean variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/bool.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-boolean-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-logical-operators",
+   "title": "Logical operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/logicOps.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-logical-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-bool-functions",
+   "title": "Bool functions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/boolFun.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-bool-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-returning-from-main-",
+   "title": "Returning from main()",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-returning-from-main-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/fruitful-functions-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fruitful-functions-exercises",
+   "title": "Exercise 5.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-1-frui.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "50675a87-84e5-398b-232c-c46cf1ae47e5",
+   "title": "Exercise 5.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-2-5067.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "19b5a46c-5e3c-e6f2-519a-5709603a36ac",
+   "title": "Exercise 5.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-3-19b5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ad78b00d-c5b5-5993-99b0-5be469fd350c",
+   "title": "Exercise 5.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-4-ad78.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ed348c72-d67f-f408-040b-5187c683c153",
+   "title": "Exercise 5.5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-5.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-5-ed34.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f135e533-e4f9-eb10-5851-669c78ee0423",
+   "title": "Exercise 5.6",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-6.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-6-f135.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "301c6789-3dfa-288c-5ff3-b1d2dd247d54",
+   "title": "Exercise 5.7",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Multadd.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-7-301c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-multiple-assignment",
+   "title": "Multiple assignment",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/assign2.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/assign2.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-multiple-assignment.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-iteration",
+   "title": "Iteration",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-iteration.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-the-while-statement",
+   "title": "The while statement",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/while.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/while.c",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-the-while-statement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-tables",
+   "title": "Tables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/logs.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-tables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-two-dimensional-tables",
+   "title": "Two-dimensional tables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-two-dimensional-tables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-encapsulation-and-generalization",
+   "title": "Encapsulation and generalization",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-encapsulation-and-generalization.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-functions",
+   "title": "Functions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-functions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-more-encapsulation",
+   "title": "More encapsulation",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-more-encapsulation.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-local-variables",
+   "title": "Local variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-local-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-more-generalization",
+   "title": "More generalization",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/multTable.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-more-generalization.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/iteration-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "iteration-exercises",
+   "title": "Exercise 6.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-1-iter.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "95ffba02-2677-27e7-b9d0-b77551e1994b",
+   "title": "Exercise 6.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex5-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-2-95ff.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "343610be-bbdc-0a51-0a2c-3a3758066e0a",
+   "title": "Exercise 6.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-3-3436.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e0d93b64-a707-7b78-f695-ba6de91edeeb",
+   "title": "Exercise 6.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex6-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-4-e0d9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays",
+   "title": "Arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-increment-and-decrement-operators",
+   "title": "Increment and decrement operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/increment.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-increment-and-decrement-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-accessing-elements",
+   "title": "Accessing elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/accessing.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-accessing-elements.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-copying-arrays",
+   "title": "Copying arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/copyingArrays.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-copying-arrays.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-for-loops",
+   "title": "for loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-for-loops.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-array-length",
+   "title": "Array length",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/length.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-array-length.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-random-numbers",
+   "title": "Random numbers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/rand.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-random-numbers.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-statistics",
+   "title": "Statistics",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-statistics.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-array-of-random-numbers",
+   "title": "Array of random numbers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/randArray.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-array-of-random-numbers.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-passing-an-array-to-a-function",
+   "title": "Passing an array to a function",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-passing-an-array-to-a-function.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-counting",
+   "title": "Counting",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-counting.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-checking-the-other-values",
+   "title": "Checking the other values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/randArray2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-checking-the-other-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-a-histogram",
+   "title": "A histogram",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-a-histogram.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-a-single-pass-solution",
+   "title": "A single-pass solution",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-a-single-pass-solution.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-random-seeds",
+   "title": "Random seeds",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-random-seeds.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-exercises",
+   "title": "Exercise 7.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-1-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "49aeb3e5-50ed-c87a-e69d-cfc73d94e016",
+   "title": "Exercise 7.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex7-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-2-49ae.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "38636d51-9fbe-4de3-22b6-422139e98802",
+   "title": "Exercise 7.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex7-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-3-3863.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-containers-for-strings",
+   "title": "Containers for strings",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-containers-for-strings.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-string-variables",
+   "title": "String variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/string.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-string-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-extracting-characters-from-a-string",
+   "title": "Extracting characters from a string",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/string2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-extracting-characters-from-a-string.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-length",
+   "title": "Length",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/strLength.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-length.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-traversal",
+   "title": "Traversal",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/traverse.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-traversal.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-finding-a-character-in-a-string",
+   "title": "Finding a  character in a string",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/findChar.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-finding-a-character-in-a-string.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-pointers-and-addresses",
+   "title": "Pointers and Addresses",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/findChar.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-pointers-and-addresses.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-string-concatenation",
+   "title": "String concatenation",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/concat.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-string-concatenation.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-assigning-new-values-to-string-variables",
+   "title": "Assigning new values to string variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/newStr.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-assigning-new-values-to-string-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-strings-are-not-comparable",
+   "title": "strings are not comparable",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-strings-are-not-comparable.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-character-classification",
+   "title": "Character classification",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/charClass.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-character-classification.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-getting-user-input",
+   "title": "Getting user input",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/userIn.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-getting-user-input.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/strings-and-things-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "strings-and-things-exercises",
+   "title": "Exercise 8.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-1-stri.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9a53b439-28bd-38a4-b2d8-0f66e2a2b8c2",
+   "title": "Exercise 8.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-2-9a53.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a4c6682b-29f8-d324-f14a-1a34bf7a9606",
+   "title": "Exercise 8.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-3-a4c6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "684f07e8-3f56-6d9c-00ce-4fca987e48c2",
+   "title": "Exercise 8.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-4-684f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f3d56388-f5f6-2fbc-bda5-229f28f7aca3",
+   "title": "Exercise 8.5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-5.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-5-f3d5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "eaa997f9-5f77-4296-24a2-b391aae8a3f1",
+   "title": "Exercise 8.6",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-6-eaa9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-compound-values",
+   "title": "Compound values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-compound-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-point-objects",
+   "title": "Point objects",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-point-objects.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-accessing-member-variables",
+   "title": "Accessing member variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-accessing-member-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-operations-on-structures",
+   "title": "Operations on structures",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-operations-on-structures.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-structures-as-parameters",
+   "title": "Structures as parameters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-structures-as-parameters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-call-by-value",
+   "title": "Call by value",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-call-by-value.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-call-by-reference",
+   "title": "Call by reference",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-call-by-reference.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-rectangles",
+   "title": "Rectangles",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-rectangles.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-structures-as-return-types",
+   "title": "Structures as return types",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-structures-as-return-types.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-passing-other-types-by-reference",
+   "title": "Passing other types by reference",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-passing-other-types-by-reference.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-glossary",
+   "title": "Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/structures-glossary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "structures-exercises",
+   "title": "Exercise 9.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-9-1-stru.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "68e2634b-5d87-f7e7-4f20-e8d5ae29cebe",
+   "title": "Exercise 9.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex9-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-9-2-68e2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5874172a-f602-1617-9dd0-49b90ed61b89",
+   "title": "Exercise 9.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex9-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-9-3-5874.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "coding-style-a-short-guide-on-style",
+   "title": "A short guide on style",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/coding-style-a-short-guide-on-style.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "coding-style-naming-conventions-and-capitalization-rules",
+   "title": "Naming conventions and capitalization rules",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/coding-style-naming-conventions-and-capitalization-rules.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "coding-style-bracing-style",
+   "title": "Bracing style",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/coding-style-bracing-style.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "coding-style-layout",
+   "title": "Layout",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/coding-style-layout.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ascii-table",
+   "title": "ASCII-Table",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/ascii-table.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": true,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
 }

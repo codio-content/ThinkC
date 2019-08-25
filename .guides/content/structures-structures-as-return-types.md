@@ -1,4 +1,4 @@
-You can write functions that return structures.  For example, `FindCenter()` has a `Rectangle\_t` parameter and returns a `Point\_t` that contains the coordinates of the center of the rectangle:
+You can write functions that return structures.  For example, `FindCenter()` has a `Rectangle_t` parameter and returns a `Point_t` that contains the coordinates of the center of the rectangle:
 
 ```code
     Point_t FindCenter (Rectangle_t box)
@@ -34,3 +34,5 @@ Notice, how we had to change the access to the members of the  structure, since 
 ```code
     Point_t center = FindCenter (&box);
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 8 )

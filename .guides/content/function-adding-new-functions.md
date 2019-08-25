@@ -29,13 +29,17 @@ In `main()` we can call this new function using syntax that is similar to the wa
      return EXIT_SUCCESS;
   }
 ```
-The output of this program is: \vskip 0.5em
+
+{Run!}(sh .guides/bg.sh gcc code/functions.c -o code/functions ./code/functions)
+
+The output of this program is:
 
 ```code
    First line.
 
    Second line.
 ```
+
 Notice the extra space between the two lines.  What if we wanted more space between the lines?  We could call the same function repeatedly:
 
 ```code
@@ -48,6 +52,9 @@ Notice the extra space between the two lines.  What if we wanted more space betw
       printf ("Second Line.\n");
   }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/functions.c -o code/functions ./code/functions 2 )
+
 Or we could write a new function, named `PrintThreeLines()`, that  prints three new lines:
 
 ```code
@@ -64,6 +71,9 @@ Or we could write a new function, named `PrintThreeLines()`, that  prints three 
       return EXIT_SUCCESS;
   }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/functions.c -o code/functions ./code/functions 3 )
+
 You should notice a few things about this program:
 
 

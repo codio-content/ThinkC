@@ -5,7 +5,10 @@ Interestingly, the same mathematical operations that work on integers also work 
     letter = 'a' + 1;
     printf ("%c\n", letter);
 ```
+
 outputs the letter `b`.  Although it is syntactically legal to multiply characters, it is almost never useful to do it.
+
+{Run!}(sh .guides/bg.sh gcc code/charMath.c -o code/charMath ./code/charMath )
 
 Earlier I said that you can only assign integer values to integer variables and character values to character variables, but that is not completely true.  In some cases, C converts automatically between types.  For example, the following is legal.
 

@@ -12,6 +12,8 @@ We can use the library function `strncat()` to concatenate strings in C.
     strncat(fruit, bakedGood, 10);
     printf ("%s\n", fruit);
 ```
+{Run!}(sh .guides/bg.sh gcc code/concat.c -o code/concat ./code/concat )
+
 The output of this program is `banana nut bread`.
 
 When we are using library functions it is important to completely understand all the necessary arguments and to have a complete understanding of the working of the function. 

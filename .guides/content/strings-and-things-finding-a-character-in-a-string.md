@@ -14,3 +14,5 @@ If we are looking for a letter in a `string`, we have to search  through the str
 ```
 
 We have to pass the `string` as the first argument, the other argument is the character we are looking for. Our function returns the index of the first occurrence of the letter, or `-1` if the letter is not contained in the string.
+
+{Run!}(sh .guides/bg.sh gcc code/findChar.c -o code/findChar ./code/findChar )

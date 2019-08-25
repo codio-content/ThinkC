@@ -9,6 +9,8 @@ A common thing to do with a string is start at the beginning, select each charac
         index = index + 1;
     }
 ```
+{Run!}(sh .guides/bg.sh gcc code/traverse.c -o code/traverse ./code/traverse )
+
 This loop traverses the string and outputs each letter on a line by itself.  Notice that the condition is `index < strlen(fruit)`, which means that when `index` is equal to the length of the string, the condition is false and the body of the loop is not executed. The last character we access is the one with the index `strlen(fruit)-1`.
 
 

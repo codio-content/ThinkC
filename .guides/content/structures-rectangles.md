@@ -11,7 +11,7 @@ The most common choice in existing programs is to specify the upper left corner 
         double width, height;
     } Rectangle_t;  
 ```
-Notice that one structure can contain another.  In fact, this sort of thing is quite common.  Of course, this means that in order to create a `Rectangle\_t`, we have to create a `Point\_t` first:
+Notice that one structure can contain another.  In fact, this sort of thing is quite common.  Of course, this means that in order to create a `Rectangle_t`, we have to create a `Point_t` first:
 
 ```code
     Point_t corner = { 0.0, 0.0 };
@@ -44,4 +44,6 @@ While we are on the subject of composition, I should point out that you can, in 
 ```code
     Rectangle_t box = { { 0.0, 0.0 }, 100.0, 200.0 };
 ```
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 7 )
+
 The innermost squiggly braces are the coordinates of the corner point; together they make up the first of the three values that go into the new `Rectangle`.  This statement is an example of **nested structure**.

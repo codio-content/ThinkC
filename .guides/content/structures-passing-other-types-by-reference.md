@@ -27,3 +27,5 @@ When people start passing things like integers by reference, they often try to u
     Swap (&i, &j+1);         /* WRONG!! */
 ```
 Presumably the programmer wanted to increase the value of `j` by `1` before it is passed to the function. This does not work as expected, because the expression `j+1` now is interpreted a pointer value and in now pointing to a memory location beyond the variable `j`.  It is a little tricky to figure out exactly what kinds of expressions make sense to be passed by reference.  For now a good rule of thumb is that reference arguments have to be variables.
+
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 9 )

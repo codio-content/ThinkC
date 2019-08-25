@@ -24,6 +24,8 @@ On my machine I got the following output:
 ```
 You will probably get something similar, but different, on yours.
 
+{Run!}(sh .guides/bg.sh gcc code/rand.c -o code/rand ./code/rand )
+
 Of course, we don't always want to work with gigantic integers. More often we want to generate integers between 0 and some upper bound.  A simple way to do that is with the modulus operator.  For example:
 
 ```code
@@ -39,5 +41,3 @@ It is also frequently useful to generate random floating-point values. A common 
     double y = (double) x / RAND_MAX;
 ```
 This code sets `y` to a random value between 0.0 and 1.0, including both end points.  As an exercise, you might want to think about how to generate a random floating-point value in a given range; for example, between 100.0 and 200.0.
-
-\pagebreak

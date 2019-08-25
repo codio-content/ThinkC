@@ -21,6 +21,8 @@ In order to call this function, we have to provide a `char`. For example, we mig
       return EXIT_SUCCESS;
   }
 ```
+{Run!}(sh .guides/bg.sh gcc code/parameters.c -o code/parameters ./code/parameters)
+
 The `char` value you provide is called an **argument**, and we say that the argument is **passed** to the function.  In this case the value `'a'` is passed as an argument to `PrintTwice()` where it will get printed twice.
 
 Alternatively, if we had a `char` variable, we could use it as an argument instead:
@@ -37,8 +39,7 @@ Notice something very important here: the name of the variable we pass as an arg
 
 
 
-> {\bf The name of the variable we pass as an argument has nothing to do
-> with the name of the parameter.}
+> **The name of the variable we pass as an argument has nothing to do with the name of the parameter.**
 
 
 They can be the same or they can be different, but it is important to realize that they are not the same thing, except that they happen to have the same value (in this case the character `'b'`).

@@ -11,8 +11,9 @@ A good way to start is to write a simple loop that prints the multiples of 2, al
     }
     printf("\n");
 ```
-The first line initializes a variable named `i`, which is going to act as a counter, or **loop variable**.  As the loop executes, the value of `i` increases from 1 to 6, and then when `i` is 7, the loop terminates.  Each time through the loop, we print the value `2*i` followed by three spaces.  By omitting the  \verb+\n+ from the first output statement, we get  all the output on a single line.
+The first line initializes a variable named `i`, which is going to act as a counter, or **loop variable**.  As the loop executes, the value of `i` increases from 1 to 6, and then when `i` is 7, the loop terminates.  Each time through the loop, we print the value `2*i` followed by three spaces.  By omitting the  `\n` from the first output statement, we get  all the output on a single line.
 
+{Run!}(sh .guides/bg.sh gcc code/multTable.c -o code/multTable ./code/multTable )
 
 The output of this program is:
 

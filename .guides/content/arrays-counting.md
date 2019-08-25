@@ -6,7 +6,6 @@ Of course, it is not easy to know ahead of time which functions are likely to be
 In our current example we want to examine a potentially large set of elements and count the number of times a certain value appears. You can think of this program as an example of a pattern called “traverse and count.”  The elements of this pattern are:
 
 
-
 *  A set or container that can be traversed, like a string or a array.
 *  A test that you can apply to each element in the container.
 *  A counter that keeps track of how many elements pass the test. 

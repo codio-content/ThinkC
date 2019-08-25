@@ -1,6 +1,6 @@
 We have seen four types of values---characters, integers, floating-point numbers and strings---but only three types of variables---`char`, `int` and `double`.  So far we have no way to store a string in a variable or perform operations on strings.
 
-This chapter is going to rectify this situation and I can now tell you that strings in C are stored as an array of characters terminated by the  character `\textbackslash 0`.
+This chapter is going to rectify this situation and I can now tell you that strings in C are stored as an array of characters terminated by the  character `\0`.
 
 By now this explanation should make sense to you and you probably understand why we had to learn quite a bit about the working of the language  before we could turn our attention towards string variables.
 

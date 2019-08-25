@@ -21,18 +21,19 @@ It is **not** copied automatically. We need to change our copy statement to copy
 ```code
     strncpy (greeting, "Hello, world!", 14);
 ```
+{Run!}(sh .guides/bg.sh gcc code/newStr.c -o code/newStr ./code/newStr )
 
-However, if we only copy parts of the second string into the first we need to explicitly set the n+1th character in the `greeting[15]` string to `\textbackslash 0` afterwards.
+However, if we only copy parts of the second string into the first we need to explicitly set the n+1th character in the `greeting[15]` string to `\0` afterwards.
 
 ```code
     strncpy (greeting, "Hello, world!", 5); /*only Hello is copied*/
     greeting[5] = '\0';
 ```
 
-\vskip 1.5em
-
+|||important
 **Attention!** In the last two sections we have used the `strncpy()` and the `strncat()` function that require you to explicitly supply the number of characters that will get copied or attached to the first argument string. 
 
 The `string.h` library also defines the `strcpy()` and  the `strcat()` functions that have no explicit bound on the number of characters that are copied. 
 
 The usage of these functions is strongly discouraged! Their use has lead to a vast number of security problems with C programs. Remember, C does not check array boundaries and will continue copying characters into computer memory even past the length of the variable.
+|||

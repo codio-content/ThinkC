@@ -11,6 +11,8 @@ To find the length of a string (the number of characters this string contains), 
        return EXIT_SUCCESS;
     }   
 ```
+{Run!}(sh .guides/bg.sh gcc code/strLength.c -o code/strLength ./code/strLength )
+
 The return value of `strlen()` in this case is 6. We assign this value to the integer  `length`  for further use.  
 
 In order to compile this code, you need to include the header file for the `string.h` library. This library provides a number of useful functions for operations on strings.  You should familiarize yourself with these functions because they can  help you to solve your programming problems faster.

@@ -6,6 +6,8 @@ You can pass structures as parameters in the usual way.  For example,
         printf ("(%0.1f, %0.1f)\n", point.x, point.y);
     }
 ```
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 4 )
+
 `PrintPoint()` takes a point as an argument and outputs it in the standard format.  If you call `PrintPoint(blank)`, it will output `(3.0, 4.0)`.
 
 As a second example, we can rewrite the `ComputeDistance()` function from Section 5.2 so that it takes two `Point`s as parameters instead of four `double`s.

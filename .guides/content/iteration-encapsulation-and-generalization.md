@@ -2,7 +2,6 @@ Encapsulation usually means taking a piece of code and wrapping it up in a funct
 
 Generalization means taking something specific, like printing multiples of 2, and making it more general, like printing the multiples of any integer.
 
-
 Here's a function that encapsulates the loop from the previous section and generalizes it to print multiples of `n`.
 
 ```code
@@ -19,7 +18,11 @@ Here's a function that encapsulates the loop from the previous section and gener
 ```
 To encapsulate, all I had to do was add the first line, which declares the name, parameter, and return type.  To generalize, all I had to do was replace the value 2 with the parameter `n`.
 
-If we call this function with the argument 2, we get the same output as before.  With argument 3, the output is:
+If we call this function with the argument 2, we get the same output as before.  
+
+{Run!}(sh .guides/bg.sh gcc code/multTable.c -o code/multTable ./code/multTable 2 )
+
+With argument 3, the output is:
 
 ```code
     3   6   9   12   15   18
@@ -40,6 +43,8 @@ By now you can probably guess how we are going to print a multiplication table: 
     }    
 ```
 First of all, notice how similar this loop is to the one inside `PrintMultiples()`.  I only replaced the call of the `printf()` function with  the call of the `PrintMultiples()` function.
+
+{Run!}(sh .guides/bg.sh gcc code/multTable.c -o code/multTable ./code/multTable 3 )
 
 The output of this program is
 

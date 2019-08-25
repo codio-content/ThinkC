@@ -5,6 +5,8 @@ Strings are called “strings” because they are made up of a sequence, or stri
     char letter = fruit[1];
     printf ("%c\n", letter);
 ```
+{Run!}(sh .guides/bg.sh gcc code/string2.c -o code/string2 ./code/string2 )
+
 The expression `fruit[1]` indicates that I want character number 1 from the string named `fruit`.  The result is stored in a `char` named `letter`.  When I output the value of `letter`, I get a surprise:
 
 ```code

@@ -1,32 +1,11 @@
 I mentioned in the last chapter that it is legal for one function to call another, and we have seen several examples of that.  I neglected to mention that it is also legal for a function to call itself.  It may not be obvious why that is a good thing, but it turns out to be one of the most magical and interesting things a program can do.
 
-For example, look at the following function:
+For example, look at the [Countdown function](open_file code/recursion.c panel=0 ref="void Countdown" count=12)
 
-```code
-  void Countdown (int n) 
-  {
-      if (n == 0) 
-      {
-          printf ("Blastoff!");
-      }
-      else
-      {
-          printf ("%i", n);
-          Countdown (n-1);
-      }
-  }
-```
 The name of the function is `Countdown()` and it takes a single integer as a parameter.  If the parameter is zero, it outputs the word “Blastoff.”  Otherwise, it outputs the parameter and then calls a function named `Countdown()`---itself---passing `n-1` as an argument.
 
-What happens if we call this function like this:
+What happens if we call this function [like this](open_file code/recursion.c panel=0 ref="int main" count=6)
 
-```code
-  int main (void)
-  {
-       Countdown (3);
-       return EXIT_SUCCESS;
-  }
-```
 The execution of `Countdown()` begins with `n=3`, and since `n` is not zero, it outputs the value 3, and then calls itself...
 
 
@@ -35,28 +14,23 @@ The execution of `Countdown()` begins with `n=3`, and since `n` is not zero, it 
 > since `n` is not zero, it outputs the value 2, and then
 > calls itself...
 > 
-> \begin{quote}
-> The execution of `Countdown()` begins with `n=1`, and
-> since `n` is not zero, it outputs the value 1, and then
-> calls itself...
-> 
-> \begin{quote}
-> The execution of `Countdown()` begins with `n=0`, and
-> since `n` is zero, it outputs the word “Blastoff!”
-> and then returns.
+>> The execution of `Countdown()` begins with `n=1`, and
+>> since `n` is not zero, it outputs the value 1, and then
+>> calls itself...
+>>>
+>>> The execution of `Countdown()` begins with `n=0`, and
+>>> since `n` is zero, it outputs the word “Blastoff!”
+>>> and then returns.
+>>>
+>>>The Countdown that got `n=1` returns.
+>>
+>>The Countdown that got `n=2` returns.
+>
+>The Countdown that got `n=3` returns.
 
+{Run!}(sh .guides/bg.sh gcc code/recursion.c -o code/recursion ./code/recursion)
 
-The Countdown that got `n=1` returns.
-
-\end{quote}
-
-The Countdown that got `n=2` returns.
-
-\end{quote}
-
-The Countdown that got `n=3` returns.
-
-total output looks like:
+Total output looks like:
 
 ```code
     3

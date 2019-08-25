@@ -21,3 +21,5 @@ In order to set all of the elements of an array to some value, you must do so el
         i++;
     }
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/copyingArrays.c -o code/copyingArrays ./code/copyingArrays )
