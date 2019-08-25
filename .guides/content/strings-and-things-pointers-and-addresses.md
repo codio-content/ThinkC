@@ -24,6 +24,8 @@ Pointer `i\_p` now references integer variable `number`. We can verify this usin
 
  ```code     printf("%i\n", *i_p); ```
 
+{Run!}(sh .guides/bg.sh gcc code/findChar.c -o code/findChar ./code/findChar 2 )
+
 This prints `5`, which happens to be the content of the  memory location at our pointer reference. 
 
 With pointers we can directly manipulate memory locations:

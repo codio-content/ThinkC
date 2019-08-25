@@ -2140,7 +2140,13 @@
   {
    "id": "strings-and-things-containers-for-strings",
    "title": "Containers for strings",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-containers-for-strings.md",
@@ -2152,7 +2158,18 @@
   {
    "id": "strings-and-things-string-variables",
    "title": "String variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/string.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-string-variables.md",
@@ -2164,7 +2181,18 @@
   {
    "id": "strings-and-things-extracting-characters-from-a-string",
    "title": "Extracting characters from a string",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/string2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-extracting-characters-from-a-string.md",
@@ -2176,7 +2204,18 @@
   {
    "id": "strings-and-things-length",
    "title": "Length",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/strLength.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-length.md",
@@ -2188,7 +2227,18 @@
   {
    "id": "strings-and-things-traversal",
    "title": "Traversal",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/traverse.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-traversal.md",
@@ -2200,7 +2250,18 @@
   {
    "id": "strings-and-things-finding-a-character-in-a-string",
    "title": "Finding a  character in a string",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/findChar.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-finding-a-character-in-a-string.md",
@@ -2212,7 +2273,18 @@
   {
    "id": "strings-and-things-pointers-and-addresses",
    "title": "Pointers and Addresses",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/findChar.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-pointers-and-addresses.md",
@@ -2224,7 +2296,18 @@
   {
    "id": "strings-and-things-string-concatenation",
    "title": "String concatenation",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/concat.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-string-concatenation.md",
@@ -2236,7 +2319,18 @@
   {
    "id": "strings-and-things-assigning-new-values-to-string-variables",
    "title": "Assigning new values to string variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/newStr.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-assigning-new-values-to-string-variables.md",
@@ -2260,7 +2354,18 @@
   {
    "id": "strings-and-things-character-classification",
    "title": "Character classification",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/charClass.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-character-classification.md",
@@ -2272,7 +2377,23 @@
   {
    "id": "strings-and-things-getting-user-input",
    "title": "Getting user input",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/userIn.c",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-getting-user-input.md",
@@ -2284,7 +2405,13 @@
   {
    "id": "strings-and-things-glossary",
    "title": "Glossary",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/strings-and-things-glossary.md",
@@ -2295,11 +2422,132 @@
   },
   {
    "id": "strings-and-things-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 8.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-1.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/strings-and-things-exercises.md",
+   "content-file": ".guides/content/Exercise-8-1-stri.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9a53b439-28bd-38a4-b2d8-0f66e2a2b8c2",
+   "title": "Exercise 8.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-2-9a53.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a4c6682b-29f8-d324-f14a-1a34bf7a9606",
+   "title": "Exercise 8.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-3-a4c6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "684f07e8-3f56-6d9c-00ce-4fca987e48c2",
+   "title": "Exercise 8.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-4.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-4-684f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f3d56388-f5f6-2fbc-bda5-229f28f7aca3",
+   "title": "Exercise 8.5",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex8-5.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-5-f3d5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "eaa997f9-5f77-4296-24a2-b391aae8a3f1",
+   "title": "Exercise 8.6",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-6-eaa9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

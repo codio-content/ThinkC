@@ -746,7 +746,37 @@
     {
      "id": "strings-and-things-exercises",
      "pageId": "strings-and-things-exercises",
-     "title": "Exercises",
+     "title": "Exercise 8.1",
+     "type": "page"
+    },
+    {
+     "id": "caf5af80-0274-304d-71ab-49a88b5fd3a6",
+     "title": "Exercise 8.2",
+     "pageId": "9a53b439-28bd-38a4-b2d8-0f66e2a2b8c2",
+     "type": "page"
+    },
+    {
+     "id": "879acf61-dbd2-9d1e-9a8c-22d551f3f23a",
+     "title": "Exercise 8.3",
+     "pageId": "a4c6682b-29f8-d324-f14a-1a34bf7a9606",
+     "type": "page"
+    },
+    {
+     "id": "15e28b33-a32d-5fef-7b8c-79489c379f42",
+     "title": "Exercise 8.4",
+     "pageId": "684f07e8-3f56-6d9c-00ce-4fca987e48c2",
+     "type": "page"
+    },
+    {
+     "id": "9cdda12a-0a79-3b7e-5e4e-ff83bf13d58c",
+     "title": "Exercise 8.5",
+     "pageId": "f3d56388-f5f6-2fbc-bda5-229f28f7aca3",
+     "type": "page"
+    },
+    {
+     "id": "4bb4ac6f-6ff2-5257-9415-7c6584d88c51",
+     "title": "Exercise 8.6",
+     "pageId": "eaa997f9-5f77-4296-24a2-b391aae8a3f1",
      "type": "page"
     }
    ],

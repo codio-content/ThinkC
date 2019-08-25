@@ -39,6 +39,8 @@ Getting input from the user might look like this:
         return EXIT_FAILURE;
     }
 ```
+{Run! | terminal}(gcc code/userIn.c -o code/userIn && ./code/userIn )
+
 There is another potential pitfall connected with the `scanf()` function. Your program code might want to insist that the user types a valid integer, because this value is needed later on. In this case you might want to  repeat the input statement in order to get a valid user input:    ```code     if (success != 1)      {           while (success != 1)                                                 {                 printf("That was not a number. Please try again:\n");                success = scanf("%i", &x);           }        } ```
 
 Unfortunately this code leads into an endless loop. You probably ask yourself, why? The input from the keyboard is delivered to your program by the operating system, in  something called an input buffer. A successful read operation automatically empties this buffer. However, if the `scanf()` function fails, like in our example, the buffer does not get emptied and the next `scanf()` operation re-reads the old value - you see the problem?

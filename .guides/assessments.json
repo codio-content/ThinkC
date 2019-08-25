@@ -464,5 +464,67 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2888212934",
+  "source": {
+   "name": "ex8-1",
+   "showName": false,
+   "instructions": "Describe an algorithm for checking whether a given word (String) is abecedarian, assuming that the word contains only lower-case letters.  Your algorithm can be iterative or recursive.",
+   "guidance": "Get the first character of the string.\n\nLoop until end of string\n  if current character is more than next character\n    break - failure\n\n\nsuccess!",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1120774427",
+  "source": {
+   "name": "ex8-6",
+   "showName": false,
+   "instructions": "Think of an algorithm for `TestWord()` that deals with wild cards.  Don't get bogged down in details of implementation like how to represent wild cards.  Just describe the algorithm, using English, pseudocode, or C.",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 1,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [
+     "code/ex8-5.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ex8-5.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

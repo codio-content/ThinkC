@@ -28,6 +28,8 @@ The  `strcmp()` function is useful for putting words in alphabetical order.
         printf ("Yes, we have no bananas!\n");
     }
 ```
+{Run!}(sh .guides/bg.sh gcc code/strComp.c -o code/strComp ./code/strComp )
+
 You should be aware, though, that the `strcmp()` function does not handle upper and lower case letters the same way that people do.  All the upper case letters come before all the lower case letters.  As a result,
 
 ```code

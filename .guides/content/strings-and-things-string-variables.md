@@ -16,7 +16,7 @@ Notice the difference in syntax for the initialisation of arrays and strings.  I
 
 There is no need to supply an array size when you are initialising the  string variable at declaration time. The compiler compute the necessary array size to store the supplied string.
 
-Remember what we said about the nature of a string variable. It is an array of characters **plus** a marker that shows where our string ends: the  termination character  `\textbackslash 0`.
+Remember what we said about the nature of a string variable. It is an array of characters **plus** a marker that shows where our string ends: the  termination character  `\0`.
 
 Normally you do not have to supply this termination character. The compiler understands our code and insertes it automatically. However, in the example above, we treated our string exactly like an array and in this case we have to insert the termination character ourselves.
 
@@ -27,3 +27,5 @@ We can output strings in the usual way using the `printf()` function:
 ```code
     printf("%s", first);
 ```
+
+{Run!}(sh .guides/bg.sh gcc code/string.c -o code/string ./code/string )
