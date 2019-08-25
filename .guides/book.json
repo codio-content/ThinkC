@@ -855,7 +855,19 @@
     {
      "id": "structures-exercises",
      "pageId": "structures-exercises",
-     "title": "Exercises",
+     "title": "Exercise 9.1",
+     "type": "page"
+    },
+    {
+     "id": "27e3fcda-246b-114e-33d9-f0ad942d3b91",
+     "title": "Exercise 9.2",
+     "pageId": "68e2634b-5d87-f7e7-4f20-e8d5ae29cebe",
+     "type": "page"
+    },
+    {
+     "id": "3a905c05-eb9d-a41b-af1b-5c446ddc9eca",
+     "title": "Exercise 9.3",
+     "pageId": "5874172a-f602-1617-9dd0-49b90ed61b89",
      "type": "page"
     }
    ],

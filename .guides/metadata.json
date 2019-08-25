@@ -2556,7 +2556,13 @@
   {
    "id": "structures-compound-values",
    "title": "Compound values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-compound-values.md",
@@ -2568,7 +2574,18 @@
   {
    "id": "structures-point-objects",
    "title": "Point objects",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-point-objects.md",
@@ -2580,7 +2597,18 @@
   {
    "id": "structures-accessing-member-variables",
    "title": "Accessing member variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-accessing-member-variables.md",
@@ -2616,7 +2644,13 @@
   {
    "id": "structures-call-by-value",
    "title": "Call by value",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-call-by-value.md",
@@ -2628,7 +2662,18 @@
   {
    "id": "structures-call-by-reference",
    "title": "Call by reference",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/point.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-call-by-reference.md",
@@ -2641,6 +2686,7 @@
    "id": "structures-rectangles",
    "title": "Rectangles",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-rectangles.md",
@@ -2676,7 +2722,13 @@
   {
    "id": "structures-glossary",
    "title": "Glossary",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/structures-glossary.md",
@@ -2687,11 +2739,63 @@
   },
   {
    "id": "structures-exercises",
-   "title": "Exercises",
-   "files": [],
+   "title": "Exercise 9.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/structures-exercises.md",
+   "content-file": ".guides/content/Exercise-9-1-stru.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "68e2634b-5d87-f7e7-4f20-e8d5ae29cebe",
+   "title": "Exercise 9.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex9-2.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-9-2-68e2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5874172a-f602-1617-9dd0-49b90ed61b89",
+   "title": "Exercise 9.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ex9-3.c",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-9-3-5874.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2700,7 +2804,13 @@
   {
    "id": "coding-style-a-short-guide-on-style",
    "title": "A short guide on style",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/coding-style-a-short-guide-on-style.md",
@@ -2712,7 +2822,13 @@
   {
    "id": "coding-style-naming-conventions-and-capitalization-rules",
    "title": "Naming conventions and capitalization rules",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/coding-style-naming-conventions-and-capitalization-rules.md",
@@ -2724,7 +2840,13 @@
   {
    "id": "coding-style-bracing-style",
    "title": "Bracing style",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/coding-style-bracing-style.md",
@@ -2736,7 +2858,13 @@
   {
    "id": "coding-style-layout",
    "title": "Layout",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/coding-style-layout.md",
@@ -2748,7 +2876,13 @@
   {
    "id": "ascii-table",
    "title": "ASCII-Table",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/ascii-table.md",

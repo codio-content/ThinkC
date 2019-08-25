@@ -22,11 +22,13 @@ Once you have defined the new structure, you can create variables with that type
     blank.x = 3.0;
     blank.y = 4.0;   
 ```
-The first line is a conventional variable declaration: `blank` has type `Point\_t`.  The next two lines initialize the fields of the structure.  The “dot notation” used here is called the **field selection operator** and allows to access the structure fields.
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point )
+
+The first line is a conventional variable declaration: `blank` has type `Point_t`.  The next two lines initialize the fields of the structure.  The “dot notation” used here is called the **field selection operator** and allows to access the structure fields.
 
 
 The result of these assignments is shown in the following state diagram:
 
-\centerline{\epsfig{figure=figs/point.pdf, width=3.0cm}}
+![](figs/point.png)
 
 As usual, the name of the variable `blank` appears outside the box and its value appears inside the box.  In this case, that value is a compound object with two named member variables.

@@ -28,4 +28,6 @@ It is legal to assign one structure to another.  For example:
     Point_t p2 = p1;
     printf ("%f, %f\n", p2.x, p2.y);
 ```
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 3 )
+
 The output of this program is `3, 4`.

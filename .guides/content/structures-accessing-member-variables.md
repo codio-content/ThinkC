@@ -11,4 +11,6 @@ You can use dot notation as part of any C expression, so the following are legal
     printf ("%0.1f, %0.1f\n", blank.x, blank.y);
     double distance = blank.x * blank.x + blank.y * blank.y;
 ```
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 2 )
+
 The first line outputs `3, 4`; the second line calculates the value 25.

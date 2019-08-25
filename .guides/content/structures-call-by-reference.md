@@ -32,6 +32,8 @@ We pass a reference of our struct parameter by adding the "address-of"  operator
     ReflectPoint (&blank);
     PrintPoint (blank);
 ```
+{Run!}(sh .guides/bg.sh gcc code/point.c -o code/point ./code/point 5 )
+
 The output of this program is as expected:
 
 ```code
@@ -40,7 +42,9 @@ The output of this program is as expected:
 ```
 Here's how we would draw a stack diagram for this program:
 
-\centerline{\epsfig{figure=figs/stack_point3.pdf, width=6.5cm}} The parameter `ptr` is a reference to the structure named `blank`.  The usual representation for a reference is a dot with an arrow that points to whatever the reference refers to.
+![](figs/stack_point3.png)
+
+The parameter `ptr` is a reference to the structure named `blank`.  The usual representation for a reference is a dot with an arrow that points to whatever the reference refers to.
 
 The important thing to see in this diagram is that any changes that `ReflectPoint()` makes through `ptr` will also affect `blank`.
 
